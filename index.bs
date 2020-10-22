@@ -103,7 +103,7 @@ Abstract: A short description of your spec, one or two sentences.
 
 Introduction {#intro}
 =====================
-To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which [[=work item]]s are created, managed, and finalized in the group.  You can see [[FORMER-CCG-PROCESS]].
+To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which [=work item=]s are created, managed, and finalized in the group.  You can see [[FORMER-CCG-PROCESS]].
 
 Terminology {#terminology}
 ===========
@@ -196,21 +196,13 @@ See [Details](#heading=h.1raokt7cjhj7) below. Thanks, and have a nice day
 
 ## W3C’s Requirements for CGs
 
-As per [[W3C-CG-GUIDELNES]], Community Groups (CGs) are established for communities of stakeholders to socialize their ideas for possible future standardization. The W3C requirements for CGs include:
+As per [[W3C-CG-GUIDELNES]], Community Groups (CGs) are established for communities of stakeholders to socialize their ideas for possible future standardization. CGs can publish documents with relatively minimal process  and requirements other than that contributors agree to the [[W3C-CLA]]. Community documents are listed as either a [[CG-FINAL-REPORT]] (with a final date and list of licensing commitments) or as [=community draft=] (without a date or list of licensing commitments).
 
-*   CGs must be public, open to all, without fee
-*   CGs are Intellectual Property Rights (IPR) Balanced
-*   CGs allowed to be self determined and exist without a time limit.
-*   CGs are tuned for creating reports that are a transition to standards track, but there is no requirement that CG Reports advance to the standards track.
-*   CGs may choose to develop test suites, white papers, demos, or merely to hold discussions.
-*   CG Drafts and [=final report=] must not suggest that they are standards or on the W3C standards-track.
-
-In the context of the larger W3C process, Community Groups can publish documents with relatively minimal [[CG-PROCESS]], content [[CG-REQUIREMENTS]] other than a [[W3C-CLA]]. Community documents are listed as either a [[CG-FINAL-REPORT]] (with a final date and list of licensing commitments) or as [=community draft=] (without a date or list of licensing commitments).
-
+This process has been developed to confirm to W3C's [[CG-PROCESS]] and [[CG-REQUIREMENTS]].
 
 ### Scope of Work
 
-In general, any work that advances the mission is welcome for consideration as a [=work item=]. A [=work item=] requires at least one group member willing to commit to being the first editor, another group member (from a different company) willing to be a co-editor, a suggested timeline, and the expected [=work item=] type, e.g., Community [=final report=] or Ongoing Repository.
+In general, any work that advances the mission is welcome for consideration as a [=work item=]. A [=work item=] requires at least one group member willing to commit to being the first editor, another group member (from a different company) willing to be a co-editor, a suggested timeline, and the expected [=work item=] type, e.g.,  [=final report=] or [=ongoing community draft=].
 
 All CCG Work Items are expected to eventually be published as “official” output of the CCG on the [[W3C-CCG-PAGE]]. Any other tasks of the CCG will be managed informally and will not use this [=work item=] process. 
 
@@ -334,7 +326,7 @@ If the chairs determine that progress on a [=work item=] is not progressing sati
 *   If accepted by the W3C staff, the [=ccg repository=] description will be changed to “FINAL REPORT:” and the [=work item=] is now closed.
 
 
-### [=ongoing community draft=] Stages
+### [=ongoing community draft=] stages
 
 
 #### Create an [=ongoing community draft=]
