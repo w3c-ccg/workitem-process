@@ -1323,7 +1323,7 @@ Possible extra rowspan handling
 </style>
   <meta content="Bikeshed version 89ebb6ab, updated Fri Oct 9 15:32:07 2020 -0700" name="generator">
   <link href="Your spec url" rel="canonical">
-  <meta content="4cf427ae5940251f320f8f34db9a92393894de27" name="document-revision">
+  <meta content="22816200a0cf65a1f35d7252d1f3cc3e738b9a88" name="document-revision">
 <style>/* darkmode */
 
             @media (prefers-color-scheme: dark) {
@@ -1815,7 +1815,7 @@ Parts of this work may be from another specification document.  If so, those par
           <li><a href="#final-report①"><span class="secno">2.2.6.5</span> <span class="content">Final Report</span></a>
          </ol>
         <li>
-         <a href="#ongoing-community-draft-stages"><span class="secno">2.2.7</span> <span class="content"><span>ongoing community draft</span> Stages</span></a>
+         <a href="#ongoing-community-draft-stages"><span class="secno">2.2.7</span> <span class="content"><span>ongoing community draft</span> stages</span></a>
          <ol class="toc">
           <li><a href="#create-an-ongoing-community-draft"><span class="secno">2.2.7.1</span> <span class="content">Create an <span>ongoing community draft</span></span></a>
          </ol>
@@ -1838,18 +1838,18 @@ Parts of this work may be from another specification document.  If so, those par
   </nav>
   <main>
    <h2 class="heading settled" data-level="1" id="intro"><span class="secno">1. </span><span class="content">Introduction</span><a class="self-link" href="#intro"></a></h2>
-    To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which [[=work item]]s are created, managed, and finalized in the group.  You can see <a data-link-type="biblio" href="#biblio-former-ccg-process">[FORMER-CCG-PROCESS]</a>. 
+    To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which <a data-link-type="dfn" href="#work-item" id="ref-for-work-item">work item</a>s are created, managed, and finalized in the group.  You can see <a data-link-type="biblio" href="#biblio-former-ccg-process">[FORMER-CCG-PROCESS]</a>. 
    <h2 class="heading settled" data-level="2" id="terminology"><span class="secno">2. </span><span class="content">Terminology</span><a class="self-link" href="#terminology"></a></h2>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="community-report">community report</dfn>: A collaborative document, with the goal of being completed and published by the CCG as a <a data-link-type="dfn" href="#final-report" id="ref-for-final-report">final report</a> on <a data-link-type="biblio" href="#biblio-w3c-ccg-page">[W3C-CCG-PAGE]</a>. <a data-link-type="dfn" href="#community-report" id="ref-for-community-report">community report</a>]s must not suggest that they are standards or on the W3C standards-track.</p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="community-specification">community specification</dfn>: A <a data-link-type="dfn" href="#final-report" id="ref-for-final-report①">final report</a>, with intended transition to becoming a standards-track working group <a data-link-type="biblio" href="#biblio-w3c-candidate-rec">[W3C-CANDIDATE-REC]</a></p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="community-note">community note</dfn>: A <a data-link-type="dfn" href="#final-report" id="ref-for-final-report②">final report</a>, with intended transition to becoming a <a data-link-type="biblio" href="#biblio-w3c-wg-note">[W3C-WG-NOTE]</a></p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="community-commentary">community commentary</dfn>: A <a data-link-type="dfn" href="#final-report" id="ref-for-final-report③">final report</a> not intended to transition to a <a data-link-type="biblio" href="#biblio-w3c-wg">[W3C-WG]</a>.</p>
-   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="rough-draft">rough draft</dfn>: Stage of a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report①">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item">work item</a> that is not yet available in a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository">ccg repository</a>, but is being iterated on via whatever medium or format the editors favor, e.g., Google Docs, Github, etc</p>
-   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="unreleased-draft">unreleased draft</dfn>: Stage of a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report②">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①">work item</a> that exists as a <a data-link-type="dfn">ccg repo</a> but which is not yet a <a data-link-type="dfn" href="#released-draft" id="ref-for-released-draft">released draft</a></p>
-   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="released-draft">released draft</dfn>: Stage of a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report③">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②">work item</a> that is tagged with a git release number but not published to W3C.</p>
+   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="rough-draft">rough draft</dfn>: Stage of a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report①">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①">work item</a> that is not yet available in a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository">ccg repository</a>, but is being iterated on via whatever medium or format the editors favor, e.g., Google Docs, Github, etc</p>
+   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="unreleased-draft">unreleased draft</dfn>: Stage of a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report②">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②">work item</a> that exists as a <a data-link-type="dfn">ccg repo</a> but which is not yet a <a data-link-type="dfn" href="#released-draft" id="ref-for-released-draft">released draft</a></p>
+   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="released-draft">released draft</dfn>: Stage of a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report③">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③">work item</a> that is tagged with a git release number but not published to W3C.</p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="published-draft">published draft</dfn>: A <a data-link-type="dfn" href="#released-draft" id="ref-for-released-draft①">released draft</a> that has been approved by CCG chairs and is listed and published on the <a data-link-type="biblio" href="#biblio-w3c-ccg-page">[W3C-CCG-PAGE]</a></p>
-   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="final-report">final report</dfn>: A <a data-link-type="dfn">published draft </a> that has been approved by the CCG community and the W3C staff.  Upon acceptance, this <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③">work item</a> is accepted as a <a data-link-type="biblio" href="#biblio-cg-final-report">[CG-FINAL-REPORT]</a>.</p>
-   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="ongoing-community-draft">ongoing community draft</dfn> — A <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④">work item</a> with a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①">ccg repository</a> that will be maintained by the CCG in perpetuity. It is never intended to beome a <a data-link-type="dfn" href="#final-report" id="ref-for-final-report④">final report</a>. Examples include registries, conformance tests, schemas, reference code, etc. _(Long term these may be replaced by new W3C processes, but currently as Working Groups currently terminate, until a new process for these is created by the W3C we maintain them as community groups are perpetual.)_</p>
+   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="final-report">final report</dfn>: A <a data-link-type="dfn">published draft </a> that has been approved by the CCG community and the W3C staff.  Upon acceptance, this <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④">work item</a> is accepted as a <a data-link-type="biblio" href="#biblio-cg-final-report">[CG-FINAL-REPORT]</a>.</p>
+   <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="ongoing-community-draft">ongoing community draft</dfn> — A <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑤">work item</a> with a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①">ccg repository</a> that will be maintained by the CCG in perpetuity. It is never intended to beome a <a data-link-type="dfn" href="#final-report" id="ref-for-final-report④">final report</a>. Examples include registries, conformance tests, schemas, reference code, etc. _(Long term these may be replaced by new W3C processes, but currently as Working Groups currently terminate, until a new process for these is created by the W3C we maintain them as community groups are perpetual.)_</p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="conformance-test-suite">conformance test suite</dfn> — a special form of [=ccg repository]], with the goal as being a companion to a <a data-link-type="dfn" href="#community-specification" id="ref-for-community-specification">community specification</a> for testing of conformance.</p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry">registry</dfn> — a special form of <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository②">ccg repository</a>, with the goal of providing an informative, long-lived list (such as credential status methods, DID methods, Linked Data Key Types)</p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="schema">schema</dfn></p>
@@ -1859,7 +1859,7 @@ Parts of this work may be from another specification document.  If so, those par
    <p><dfn data-dfn-type="dfn" data-noexport id="release-tag">release tag<a class="self-link" href="#release-tag"></a></dfn></p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="ccg-repository">ccg repository</dfn> , for iteration by CCG members through discussion, issues, and pull requests,</p>
    <h3 class="heading settled" data-level="2.1" id="tldr"><span class="secno">2.1. </span><span class="content">TL;DR</span><a class="self-link" href="#tldr"></a></h3>
-   <h4 class="heading settled" data-level="2.1.1" id="work-item-process-40k-feet-view"><span class="secno">2.1.1. </span><span class="content"><a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑤">work item</a> Process, 40K feet view</span><a class="self-link" href="#work-item-process-40k-feet-view"></a></h4>
+   <h4 class="heading settled" data-level="2.1.1" id="work-item-process-40k-feet-view"><span class="secno">2.1.1. </span><span class="content"><a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑥">work item</a> Process, 40K feet view</span><a class="self-link" href="#work-item-process-40k-feet-view"></a></h4>
    <p>![alt_text](images/image1.png "image_tooltip")</p>
    <p>The nodes with color correspond to the 2 types of work items:</p>
    <ul>
@@ -1868,7 +1868,7 @@ Parts of this work may be from another specification document.  If so, those par
     <li data-md>
      <p><a data-link-type="dfn" href="#community-report" id="ref-for-community-report④">community report</a> Draft</p>
    </ul>
-   <p>Let’s look at specific subtypes of each <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑥">work item</a> type, along with some examples</p>
+   <p>Let’s look at specific subtypes of each <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑦">work item</a> type, along with some examples</p>
    <table>
     <tbody>
      <tr>
@@ -1879,34 +1879,20 @@ Parts of this work may be from another specification document.  If so, those par
        <p><img alt="alt_text" src="images/image2.png" title="image_tooltip" width></p>
       <td> <img alt="alt_text" src="images/image3.png" title="image_tooltip" width> 
    </table>
-   <p>The 2 <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑦">work item</a> types follow different processes; let’s drill into those in the 20k foot view</p>
+   <p>The 2 <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑧">work item</a> types follow different processes; let’s drill into those in the 20k foot view</p>
    <h4 class="heading settled" data-level="2.1.2" id="20-000-feet-view"><span class="secno">2.1.2. </span><span class="content">20,000 feet view</span><a class="self-link" href="#20-000-feet-view"></a></h4>
    <p>![alt_text](images/image4.png "image_tooltip")</p>
    <h4 class="heading settled" data-level="2.1.3" id="examples-as-of-may-29-2019"><span class="secno">2.1.3. </span><span class="content">Examples (as of May 29, 2019)</span><a class="self-link" href="#examples-as-of-may-29-2019"></a></h4>
-   <p>Let’s look at some specific work items and where they are in the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑧">work item</a> process</p>
+   <p>Let’s look at some specific work items and where they are in the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑨">work item</a> process</p>
    <p>![alt_text](images/image5.png "image_tooltip")</p>
    <h4 class="heading settled" data-level="2.1.4" id="further-drill-down"><span class="secno">2.1.4. </span><span class="content">Further drill down</span><a class="self-link" href="#further-drill-down"></a></h4>
    <p>See [Details](#heading=h.1raokt7cjhj7) below. Thanks, and have a nice day</p>
    <h3 class="heading settled" data-level="2.2" id="w3cs-requirements-for-cgs"><span class="secno">2.2. </span><span class="content">W3C’s Requirements for CGs</span><a class="self-link" href="#w3cs-requirements-for-cgs"></a></h3>
-   <p>As per <a data-link-type="biblio" href="#biblio-w3c-cg-guidelnes">[W3C-CG-GUIDELNES]</a>, Community Groups (CGs) are established for communities of stakeholders to socialize their ideas for possible future standardization. The W3C requirements for CGs include:</p>
-   <ul>
-    <li data-md>
-     <p>CGs must be public, open to all, without fee</p>
-    <li data-md>
-     <p>CGs are Intellectual Property Rights (IPR) Balanced</p>
-    <li data-md>
-     <p>CGs allowed to be self determined and exist without a time limit.</p>
-    <li data-md>
-     <p>CGs are tuned for creating reports that are a transition to standards track, but there is no requirement that CG Reports advance to the standards track.</p>
-    <li data-md>
-     <p>CGs may choose to develop test suites, white papers, demos, or merely to hold discussions.</p>
-    <li data-md>
-     <p>CG Drafts and <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑤">final report</a> must not suggest that they are standards or on the W3C standards-track.</p>
-   </ul>
-   <p>In the context of the larger W3C process, Community Groups can publish documents with relatively minimal <a data-link-type="biblio" href="#biblio-cg-process">[CG-PROCESS]</a>, content <a data-link-type="biblio" href="#biblio-cg-requirements">[CG-REQUIREMENTS]</a> other than a <a data-link-type="biblio" href="#biblio-w3c-cla">[W3C-CLA]</a>. Community documents are listed as either a <a data-link-type="biblio" href="#biblio-cg-final-report">[CG-FINAL-REPORT]</a> (with a final date and list of licensing commitments) or as <a data-link-type="dfn">community draft</a> (without a date or list of licensing commitments).</p>
+   <p>As per <a data-link-type="biblio" href="#biblio-w3c-cg-guidelnes">[W3C-CG-GUIDELNES]</a>, Community Groups (CGs) are established for communities of stakeholders to socialize their ideas for possible future standardization. CGs can publish documents with relatively minimal process  and requirements other than that contributors agree to the <a data-link-type="biblio" href="#biblio-w3c-cla">[W3C-CLA]</a>. Community documents are listed as either a <a data-link-type="biblio" href="#biblio-cg-final-report">[CG-FINAL-REPORT]</a> (with a final date and list of licensing commitments) or as <a data-link-type="dfn">community draft</a> (without a date or list of licensing commitments).</p>
+   <p>This process has been developed to confirm to W3C’s <a data-link-type="biblio" href="#biblio-cg-process">[CG-PROCESS]</a> and <a data-link-type="biblio" href="#biblio-cg-requirements">[CG-REQUIREMENTS]</a>.</p>
    <h4 class="heading settled" data-level="2.2.1" id="scope-of-work"><span class="secno">2.2.1. </span><span class="content">Scope of Work</span><a class="self-link" href="#scope-of-work"></a></h4>
-   <p>In general, any work that advances the mission is welcome for consideration as a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item⑨">work item</a>. A <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⓪">work item</a> requires at least one group member willing to commit to being the first editor, another group member (from a different company) willing to be a co-editor, a suggested timeline, and the expected <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①①">work item</a> type, e.g., Community <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑥">final report</a> or Ongoing Repository.</p>
-   <p>All CCG Work Items are expected to eventually be published as “official” output of the CCG on the <a data-link-type="biblio" href="#biblio-w3c-ccg-page">[W3C-CCG-PAGE]</a>. Any other tasks of the CCG will be managed informally and will not use this <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①②">work item</a> process.</p>
+   <p>In general, any work that advances the mission is welcome for consideration as a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⓪">work item</a>. A <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①①">work item</a> requires at least one group member willing to commit to being the first editor, another group member (from a different company) willing to be a co-editor, a suggested timeline, and the expected <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①②">work item</a> type, e.g., <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑤">final report</a> or <a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft②">ongoing community draft</a>.</p>
+   <p>All CCG Work Items are expected to eventually be published as “official” output of the CCG on the <a data-link-type="biblio" href="#biblio-w3c-ccg-page">[W3C-CCG-PAGE]</a>. Any other tasks of the CCG will be managed informally and will not use this <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①③">work item</a> process.</p>
    <h4 class="heading settled" data-level="2.2.2" id="types-of-work-items"><span class="secno">2.2.2. </span><span class="content">Types of Work Items</span><a class="self-link" href="#types-of-work-items"></a></h4>
    <p>All Work Items fall into the following types:</p>
    <ul>
@@ -1914,7 +1900,7 @@ Parts of this work may be from another specification document.  If so, those par
      <p><a data-link-type="dfn" href="#community-report" id="ref-for-community-report⑥">community report</a></p>
      <ul>
       <li data-md>
-       <p>There are three kinds of <a data-link-type="dfn" href="#community-report" id="ref-for-community-report⑦">community report</a>s, each of which has the goal of transitioning to a Community <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑦">final report</a> as follows:</p>
+       <p>There are three kinds of <a data-link-type="dfn" href="#community-report" id="ref-for-community-report⑦">community report</a>s, each of which has the goal of transitioning to a Community <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑥">final report</a> as follows:</p>
        <ul>
         <li data-md>
          <p><a data-link-type="dfn" href="#community-specification" id="ref-for-community-specification①">community specification</a></p>
@@ -1935,11 +1921,11 @@ Parts of this work may be from another specification document.  If so, those par
         <li data-md>
          <p><a data-link-type="dfn" href="#published-draft" id="ref-for-published-draft">published draft</a></p>
         <li data-md>
-         <p><a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑧">final report</a></p>
+         <p><a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑦">final report</a></p>
        </ul>
      </ul>
     <li data-md>
-     <p><a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft②">ongoing community draft</a></p>
+     <p><a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft③">ongoing community draft</a></p>
      <ul>
       <li data-md>
        <p><a data-link-type="dfn" href="#conformance-test-suite" id="ref-for-conformance-test-suite">conformance test suite</a></p>
@@ -1969,24 +1955,24 @@ Parts of this work may be from another specification document.  If so, those par
     <li data-md>
      <p>Adoption</p>
     <li data-md>
-     <p><a data-link-type="dfn" href="#work-item" id="ref-for-work-item①③">work item</a> Drafts</p>
+     <p><a data-link-type="dfn" href="#work-item" id="ref-for-work-item①④">work item</a> Drafts</p>
     <li data-md>
      <p>Closure</p>
    </ol>
-   <h4 class="heading settled" data-level="2.2.5" id="work-item-process"><span class="secno">2.2.5. </span><span class="content"><a data-link-type="dfn" href="#work-item" id="ref-for-work-item①④">work item</a> Process</span><a class="self-link" href="#work-item-process"></a></h4>
+   <h4 class="heading settled" data-level="2.2.5" id="work-item-process"><span class="secno">2.2.5. </span><span class="content"><a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑤">work item</a> Process</span><a class="self-link" href="#work-item-process"></a></h4>
    <h5 class="heading settled" data-level="2.2.5.1" id="proposal"><span class="secno">2.2.5.1. </span><span class="content">Proposal</span><a class="self-link" href="#proposal"></a></h5>
    <p>Proposals are made by creating a Github issue and announcing the proposal on the CCG email discussion list.</p>
    <p>The Github Issue is posted to the <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository③">ccg repository</a> <a data-link-type="biblio" href="#biblio-ccg-github-issues">[CCG-GITHUB-ISSUES]</a> by using the “New Work Item” template as follows:</p>
    <p>![alt_text](images/image6.png "image_tooltip")</p>
    <p>![alt_text](images/image7.png "image_tooltip")</p>
-   <p>A <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑤">work item</a> Proposal must include</p>
+   <p>A <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑥">work item</a> Proposal must include</p>
    <ol>
     <li data-md>
-     <p>Abstract or Draft of proposed <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑥">work item</a> (typically a link to a google doc or a markdown page in Github)</p>
+     <p>Abstract or Draft of proposed <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑦">work item</a> (typically a link to a google doc or a markdown page in Github)</p>
     <li data-md>
-     <p>Editors responsible for advancing the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑦">work item</a>. (Proposals may have a single editor; however, before approval of a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑧">work item</a> it must have more than one editor, and editors must include representation from at least two companies.)</p>
+     <p>Editors responsible for advancing the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑧">work item</a>. (Proposals may have a single editor; however, before approval of a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑨">work item</a> it must have more than one editor, and editors must include representation from at least two companies.)</p>
    </ol>
-   <p class="note" role="note"><span>Note:</span> the Github <a data-link-type="dfn" href="#work-item" id="ref-for-work-item①⑨">work item</a> template auto-populates the following fields:</p>
+   <p class="note" role="note"><span>Note:</span> the Github <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⓪">work item</a> template auto-populates the following fields:</p>
    <ul>
     <li data-md>
      <p>Labels the issue as “Proposed Work Item”</p>
@@ -1994,46 +1980,46 @@ Parts of this work may be from another specification document.  If so, those par
      <p>Prompts to add the editors’ contact information and Github handles to the issue</p>
    </ul>
    <p>_NOTE: Do not create a new ccg repo in the CCG Community Github  (if you need a repo, create one in your personal Github account, and we can move it if the proposal is approved.)_</p>
-   <p>Once the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⓪">work item</a> Proposal issue exists, post an announcement about the proposal to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)> with a link to the Github issue.</p>
+   <p>Once the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②①">work item</a> Proposal issue exists, post an announcement about the proposal to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)> with a link to the Github issue.</p>
    <h5 class="heading settled" data-level="2.2.5.2" id="adoption"><span class="secno">2.2.5.2. </span><span class="content">Adoption</span><a class="self-link" href="#adoption"></a></h5>
    <p>Once proposed, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list as well as on the regular conference call at the Chairs discretion. During this time, proposers should seek support and consensus around the specific proposal.</p>
-   <p>Once there has been suitable opportunity for conversation, the chairs have made a determination about appropriateness, there is sufficient community support, and there are no principled objections, the chairs will formally accept the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②①">work item</a>.</p>
+   <p>Once there has been suitable opportunity for conversation, the chairs have made a determination about appropriateness, there is sufficient community support, and there are no principled objections, the chairs will formally accept the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②②">work item</a>.</p>
    <h5 class="heading settled" data-level="2.2.5.3" id="community-report-drafts"><span class="secno">2.2.5.3. </span><span class="content"><a data-link-type="dfn" href="#community-report" id="ref-for-community-report⑨">community report</a> Drafts</span><a class="self-link" href="#community-report-drafts"></a></h5>
-   <p>Once approved and if appropriate, the Chairs will create a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository④">ccg repository</a>. The editors will facilitate CCG members contributions to iterate on the document as per W3C github cultural practices including transparency and public documentation of work item meetings. To manage the intellectual property of contributions, editors should maintain the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②②">work item</a> Drafts repo with the most up-to-date version of the work.</p>
+   <p>Once approved and if appropriate, the Chairs will create a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository④">ccg repository</a>. The editors will facilitate CCG members contributions to iterate on the document as per W3C github cultural practices including transparency and public documentation of work item meetings. To manage the intellectual property of contributions, editors should maintain the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②③">work item</a> Drafts repo with the most up-to-date version of the work.</p>
    <h5 class="heading settled" data-level="2.2.5.4" id="closure"><span class="secno">2.2.5.4. </span><span class="content">Closure</span><a class="self-link" href="#closure"></a></h5>
-   <p>Work Items that succeed in becoming Community <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑨">final report</a> are closed. The existing <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑤">ccg repository</a> description will be noted as being “FINAL:”</p>
-   <p>If the chairs determine that progress on a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②③">work item</a> is not progressing satisfactorily, they will notify the editors that they have one month to demonstrate progress. After this notice it is at the chairs discretion to keep the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②④">work item</a> in the CCG roadmap, change the editors for the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑤">work item</a>, or remove the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑥">work item</a> from the CCG roadmap and formally close the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑦">work item</a>, and the existing <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑥">ccg repository</a> description will be noted as being “CLOSED:”</p>
+   <p>Work Items that succeed in becoming Community <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑧">final report</a> are closed. The existing <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑤">ccg repository</a> description will be noted as being “FINAL:”</p>
+   <p>If the chairs determine that progress on a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②④">work item</a> is not progressing satisfactorily, they will notify the editors that they have one month to demonstrate progress. After this notice it is at the chairs discretion to keep the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑤">work item</a> in the CCG roadmap, change the editors for the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑥">work item</a>, or remove the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑦">work item</a> from the CCG roadmap and formally close the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑧">work item</a>, and the existing <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑥">ccg repository</a> description will be noted as being “CLOSED:”</p>
    <h4 class="heading settled" data-level="2.2.6" id="community-report-stages"><span class="secno">2.2.6. </span><span class="content"><a data-link-type="dfn" href="#community-report" id="ref-for-community-report①⓪">community report</a> Stages</span><a class="self-link" href="#community-report-stages"></a></h4>
    <h5 class="heading settled" data-level="2.2.6.1" id="rough-draft①"><span class="secno">2.2.6.1. </span><span class="content"><a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft①">rough draft</a></span><a class="self-link" href="#rough-draft①"></a></h5>
    <ul>
     <li data-md>
-     <p>An initial <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft②">rough draft</a> should be started by the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑧">work item</a> proposed editors as part of the process of proposing a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report①①">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑨">work item</a>.</p>
+     <p>An initial <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft②">rough draft</a> should be started by the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item②⑨">work item</a> proposed editors as part of the process of proposing a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report①①">community report</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⓪">work item</a>.</p>
     <li data-md>
      <p><a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft③">rough draft</a> Work Items are NOT listed in the CCG’s official roadmap.</p>
     <li data-md>
-     <p>Contributions to the <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft④">rough draft</a> by CCG members are moderated in a manner suitable to the medium, under the guidance of the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⓪">work item</a> editors.</p>
+     <p>Contributions to the <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft④">rough draft</a> by CCG members are moderated in a manner suitable to the medium, under the guidance of the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③①">work item</a> editors.</p>
     <li data-md>
-     <p><a data-link-type="dfn" href="#work-item" id="ref-for-work-item③①">work item</a> editors must ensure that all substantial commitments to the <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑤">rough draft</a> are made by members that have signed the CCGs Contributors Agreement.</p>
+     <p><a data-link-type="dfn" href="#work-item" id="ref-for-work-item③②">work item</a> editors must ensure that all substantial commitments to the <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑤">rough draft</a> are made by members that have signed the CCGs Contributors Agreement.</p>
     <li data-md>
-     <p>Editors may iterate these <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑥">rough draft</a> Work Items at their initial location until they are ready, but the goal should be to transition them after approval as a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③②">work item</a> to become ReSpec documents in a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑦">ccg repository</a> as soon as reasonably possible.</p>
+     <p>Editors may iterate these <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑥">rough draft</a> Work Items at their initial location until they are ready, but the goal should be to transition them after approval as a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③③">work item</a> to become ReSpec documents in a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑦">ccg repository</a> as soon as reasonably possible.</p>
    </ul>
    <h5 class="heading settled" data-level="2.2.6.2" id="unreleased-draft①"><span class="secno">2.2.6.2. </span><span class="content"><a data-link-type="dfn" href="#unreleased-draft" id="ref-for-unreleased-draft①">unreleased draft</a></span><a class="self-link" href="#unreleased-draft①"></a></h5>
    <ul>
     <li data-md>
-     <p>When the editors of a <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑦">rough draft</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③③">work item</a> agree that a version of a <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑧">rough draft</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③④">work item</a> is ready for Github, and it has been formatted in ReSpec format (or appropriate format for destination such as IETF draft format), they may ask the CCG chairs to create a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑧">ccg repository</a> for the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑤">work item</a> in the CCG Github Community, as described in <a data-link-type="biblio" href="#biblio-ccg-create-repo">[CCG-CREATE-REPO]</a>.</p>
+     <p>When the editors of a <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑦">rough draft</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③④">work item</a> agree that a version of a <a data-link-type="dfn" href="#rough-draft" id="ref-for-rough-draft⑧">rough draft</a> <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑤">work item</a> is ready for Github, and it has been formatted in ReSpec format (or appropriate format for destination such as IETF draft format), they may ask the CCG chairs to create a <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑧">ccg repository</a> for the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑥">work item</a> in the CCG Github Community, as described in <a data-link-type="biblio" href="#biblio-ccg-create-repo">[CCG-CREATE-REPO]</a>.</p>
     <li data-md>
      <p>Unreleased Draft Work Items ARE listed in the CCGs official roadmap, and the <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository⑨">ccg repository</a> description begins with “UNRELEASED DRAFT:”</p>
     <li data-md>
-     <p>Issues &amp; pull requests to the Unreleased Draft are moderated by the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑥">work item</a> editors, as per W3C github cultural practices, including transparency and public documentation of <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑦">work item</a> meetings. (details TBW).</p>
+     <p>Issues &amp; pull requests to the Unreleased Draft are moderated by the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑦">work item</a> editors, as per W3C github cultural practices, including transparency and public documentation of <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑧">work item</a> meetings. (details TBW).</p>
    </ul>
    <h5 class="heading settled" data-level="2.2.6.3" id="releeased-draft"><span class="secno">2.2.6.3. </span><span class="content"><a data-link-type="dfn">releeased draft</a></span><a class="self-link" href="#releeased-draft"></a></h5>
    <ul>
     <li data-md>
-     <p>When the editors of a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑧">work item</a> believe that the collaboration has reached some milestone (say for broader commentary by other CCG members or to the broader community), at their discretion they may mark a particular version of the <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①⓪">ccg repository</a> with a release tag. If the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑨">work item</a> itself contains a version number (e.g. in its specification text), then that version must be increased with the commit following the release tag; work then continues on that next version. The <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①①">ccg repository</a> description should be changed to begin with “RELEASED DRAFT:” to show evidence of the evolution of this <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④⓪">work item</a>.</p>
+     <p>When the editors of a <a data-link-type="dfn" href="#work-item" id="ref-for-work-item③⑨">work item</a> believe that the collaboration has reached some milestone (say for broader commentary by other CCG members or to the broader community), at their discretion they may mark a particular version of the <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①⓪">ccg repository</a> with a release tag. If the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④⓪">work item</a> itself contains a version number (e.g. in its specification text), then that version must be increased with the commit following the release tag; work then continues on that next version. The <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①①">ccg repository</a> description should be changed to begin with “RELEASED DRAFT:” to show evidence of the evolution of this <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④①">work item</a>.</p>
     <li data-md>
      <p>Release numbering must follow SemVer <a data-link-type="biblio" href="#biblio-semver">[SEMVER]</a>. Work items that are WG Specifications or WG Notes track (for future transitions to the  standards-track W3C Working Group Process) must be numbered below 1.0.0. Alternatively, drafts destined for non-W3C standards track may use the appropriate numbering system for the  intended standards organization.</p>
     <li data-md>
-     <p>Editors should submit PR to <a data-link-type="biblio" href="#biblio-ccg-work-items">[CCG-WORK-ITEMS]</a> to update the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④①">work item</a> stage and version number.</p>
+     <p>Editors should submit PR to <a data-link-type="biblio" href="#biblio-ccg-work-items">[CCG-WORK-ITEMS]</a> to update the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④②">work item</a> stage and version number.</p>
     <li data-md>
      <p>The editors may continue to update with new releases numbers as needed.</p>
    </ul>
@@ -2049,23 +2035,23 @@ Parts of this work may be from another specification document.  If so, those par
    <h5 class="heading settled" data-level="2.2.6.5" id="final-report①"><span class="secno">2.2.6.5. </span><span class="content">Final Report</span><a class="self-link" href="#final-report①"></a></h5>
    <ul>
     <li data-md>
-     <p>When a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report①②">community report</a> is final, and work on that version is complete or a hand-off to a WG is imminent, the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④②">work item</a> editors finalize any IPR commitments.</p>
+     <p>When a <a data-link-type="dfn" href="#community-report" id="ref-for-community-report①②">community report</a> is final, and work on that version is complete or a hand-off to a WG is imminent, the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④③">work item</a> editors finalize any IPR commitments.</p>
     <li data-md>
-     <p>The chairs review the <a data-link-type="dfn" href="#published-draft" id="ref-for-published-draft③">published draft</a> for consideration as a <a data-link-type="dfn" href="#final-report" id="ref-for-final-report①⓪">final report</a> and post the proposal to become a FINAL REPORT an email to the CCG discussion list for approval.</p>
+     <p>The chairs review the <a data-link-type="dfn" href="#published-draft" id="ref-for-published-draft③">published draft</a> for consideration as a <a data-link-type="dfn" href="#final-report" id="ref-for-final-report⑨">final report</a> and post the proposal to become a FINAL REPORT an email to the CCG discussion list for approval.</p>
     <li data-md>
      <p>Once proposed, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list as well as on the regular conference call at the Chairs discretion.</p>
     <li data-md>
-     <p>If there is sufficient community support for the <a data-link-type="dfn" href="#published-draft" id="ref-for-published-draft④">published draft</a> and there are no principled objections, the chairs at their discretion will submit the <a data-link-type="dfn" href="#published-draft" id="ref-for-published-draft⑤">published draft</a> to the W3C staff as a <a data-link-type="dfn" href="#final-report" id="ref-for-final-report①①">final report</a>.</p>
+     <p>If there is sufficient community support for the <a data-link-type="dfn" href="#published-draft" id="ref-for-published-draft④">published draft</a> and there are no principled objections, the chairs at their discretion will submit the <a data-link-type="dfn" href="#published-draft" id="ref-for-published-draft⑤">published draft</a> to the W3C staff as a <a data-link-type="dfn" href="#final-report" id="ref-for-final-report①⓪">final report</a>.</p>
     <li data-md>
-     <p>W3C Staff have final approval for all <a data-link-type="dfn" href="#final-report" id="ref-for-final-report①②">final report</a> listed in the <a data-link-type="biblio" href="#biblio-w3c-ccg-page">[W3C-CCG-PAGE]</a>.</p>
+     <p>W3C Staff have final approval for all <a data-link-type="dfn" href="#final-report" id="ref-for-final-report①①">final report</a> listed in the <a data-link-type="biblio" href="#biblio-w3c-ccg-page">[W3C-CCG-PAGE]</a>.</p>
     <li data-md>
-     <p>If accepted by the W3C staff, the <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①③">ccg repository</a> description will be changed to “FINAL REPORT:” and the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④③">work item</a> is now closed.</p>
+     <p>If accepted by the W3C staff, the <a data-link-type="dfn" href="#ccg-repository" id="ref-for-ccg-repository①③">ccg repository</a> description will be changed to “FINAL REPORT:” and the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④④">work item</a> is now closed.</p>
    </ul>
-   <h4 class="heading settled" data-level="2.2.7" id="ongoing-community-draft-stages"><span class="secno">2.2.7. </span><span class="content"><a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft③">ongoing community draft</a> Stages</span><a class="self-link" href="#ongoing-community-draft-stages"></a></h4>
-   <h5 class="heading settled" data-level="2.2.7.1" id="create-an-ongoing-community-draft"><span class="secno">2.2.7.1. </span><span class="content">Create an <a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft④">ongoing community draft</a></span><a class="self-link" href="#create-an-ongoing-community-draft"></a></h5>
-   <p>Propose a CG <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④④">work item</a> with the intent to make it an <a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft⑤">ongoing community draft</a> (such as a CG Registry). The proposal would pass per the CG’s documented consensus process.</p>
-   <p>W3C leadership may propose a <a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft⑥">ongoing community draft</a> process, in which case this would be revised to include that.</p>
-   <p>Any normative registry work items should be chartered by a W3C working group and shall be run according to that charter. Charter should include plans for releasing snapshots of the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④⑤">work item</a>.</p>
+   <h4 class="heading settled" data-level="2.2.7" id="ongoing-community-draft-stages"><span class="secno">2.2.7. </span><span class="content"><a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft④">ongoing community draft</a> stages</span><a class="self-link" href="#ongoing-community-draft-stages"></a></h4>
+   <h5 class="heading settled" data-level="2.2.7.1" id="create-an-ongoing-community-draft"><span class="secno">2.2.7.1. </span><span class="content">Create an <a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft⑤">ongoing community draft</a></span><a class="self-link" href="#create-an-ongoing-community-draft"></a></h5>
+   <p>Propose a CG <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④⑤">work item</a> with the intent to make it an <a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft⑥">ongoing community draft</a> (such as a CG Registry). The proposal would pass per the CG’s documented consensus process.</p>
+   <p>W3C leadership may propose a <a data-link-type="dfn" href="#ongoing-community-draft" id="ref-for-ongoing-community-draft⑦">ongoing community draft</a> process, in which case this would be revised to include that.</p>
+   <p>Any normative registry work items should be chartered by a W3C working group and shall be run according to that charter. Charter should include plans for releasing snapshots of the <a data-link-type="dfn" href="#work-item" id="ref-for-work-item④⑥">work item</a>.</p>
    <h4 class="heading settled" data-level="2.2.8" id="tools"><span class="secno">2.2.8. </span><span class="content">Tools</span><a class="self-link" href="#tools"></a></h4>
    <p>_Git _</p>
    <p>_ReSpec_</p>
@@ -2347,20 +2333,20 @@ Parts of this work may be from another specification document.  If so, those par
    <b><a href="#final-report">#final-report</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-final-report">2. Terminology</a> <a href="#ref-for-final-report①">(2)</a> <a href="#ref-for-final-report②">(3)</a> <a href="#ref-for-final-report③">(4)</a> <a href="#ref-for-final-report④">(5)</a>
-    <li><a href="#ref-for-final-report⑤">2.2. W3C’s Requirements for CGs</a>
-    <li><a href="#ref-for-final-report⑥">2.2.1. Scope of Work</a>
-    <li><a href="#ref-for-final-report⑦">2.2.2. Types of Work Items</a> <a href="#ref-for-final-report⑧">(2)</a>
-    <li><a href="#ref-for-final-report⑨">2.2.5.4. Closure</a>
-    <li><a href="#ref-for-final-report①⓪">2.2.6.5. Final Report</a> <a href="#ref-for-final-report①①">(2)</a> <a href="#ref-for-final-report①②">(3)</a>
+    <li><a href="#ref-for-final-report⑤">2.2.1. Scope of Work</a>
+    <li><a href="#ref-for-final-report⑥">2.2.2. Types of Work Items</a> <a href="#ref-for-final-report⑦">(2)</a>
+    <li><a href="#ref-for-final-report⑧">2.2.5.4. Closure</a>
+    <li><a href="#ref-for-final-report⑨">2.2.6.5. Final Report</a> <a href="#ref-for-final-report①⓪">(2)</a> <a href="#ref-for-final-report①①">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="ongoing-community-draft">
    <b><a href="#ongoing-community-draft">#ongoing-community-draft</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-ongoing-community-draft">2.1.1. work item Process, 40K feet view</a> <a href="#ref-for-ongoing-community-draft①">(2)</a>
-    <li><a href="#ref-for-ongoing-community-draft②">2.2.2. Types of Work Items</a>
-    <li><a href="#ref-for-ongoing-community-draft③">2.2.7. ongoing community draft Stages</a>
-    <li><a href="#ref-for-ongoing-community-draft④">2.2.7.1. Create an ongoing community draft</a> <a href="#ref-for-ongoing-community-draft⑤">(2)</a> <a href="#ref-for-ongoing-community-draft⑥">(3)</a>
+    <li><a href="#ref-for-ongoing-community-draft②">2.2.1. Scope of Work</a>
+    <li><a href="#ref-for-ongoing-community-draft③">2.2.2. Types of Work Items</a>
+    <li><a href="#ref-for-ongoing-community-draft④">2.2.7. ongoing community draft stages</a>
+    <li><a href="#ref-for-ongoing-community-draft⑤">2.2.7.1. Create an ongoing community draft</a> <a href="#ref-for-ongoing-community-draft⑥">(2)</a> <a href="#ref-for-ongoing-community-draft⑦">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="conformance-test-suite">
@@ -2390,21 +2376,22 @@ Parts of this work may be from another specification document.  If so, those par
   <aside class="dfn-panel" data-for="work-item">
    <b><a href="#work-item">#work-item</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-work-item">2. Terminology</a> <a href="#ref-for-work-item①">(2)</a> <a href="#ref-for-work-item②">(3)</a> <a href="#ref-for-work-item③">(4)</a> <a href="#ref-for-work-item④">(5)</a>
-    <li><a href="#ref-for-work-item⑤">2.1.1. work item Process, 40K feet view</a> <a href="#ref-for-work-item⑥">(2)</a> <a href="#ref-for-work-item⑦">(3)</a>
-    <li><a href="#ref-for-work-item⑧">2.1.3. Examples (as of May 29, 2019)</a>
-    <li><a href="#ref-for-work-item⑨">2.2.1. Scope of Work</a> <a href="#ref-for-work-item①⓪">(2)</a> <a href="#ref-for-work-item①①">(3)</a> <a href="#ref-for-work-item①②">(4)</a>
-    <li><a href="#ref-for-work-item①③">2.2.4. Lifecycle of Work Items</a>
-    <li><a href="#ref-for-work-item①④">2.2.5. work item Process</a>
-    <li><a href="#ref-for-work-item①⑤">2.2.5.1. Proposal</a> <a href="#ref-for-work-item①⑥">(2)</a> <a href="#ref-for-work-item①⑦">(3)</a> <a href="#ref-for-work-item①⑧">(4)</a> <a href="#ref-for-work-item①⑨">(5)</a> <a href="#ref-for-work-item②⓪">(6)</a>
-    <li><a href="#ref-for-work-item②①">2.2.5.2. Adoption</a>
-    <li><a href="#ref-for-work-item②②">2.2.5.3. community report Drafts</a>
-    <li><a href="#ref-for-work-item②③">2.2.5.4. Closure</a> <a href="#ref-for-work-item②④">(2)</a> <a href="#ref-for-work-item②⑤">(3)</a> <a href="#ref-for-work-item②⑥">(4)</a> <a href="#ref-for-work-item②⑦">(5)</a>
-    <li><a href="#ref-for-work-item②⑧">2.2.6.1. rough draft</a> <a href="#ref-for-work-item②⑨">(2)</a> <a href="#ref-for-work-item③⓪">(3)</a> <a href="#ref-for-work-item③①">(4)</a> <a href="#ref-for-work-item③②">(5)</a>
-    <li><a href="#ref-for-work-item③③">2.2.6.2. unreleased draft</a> <a href="#ref-for-work-item③④">(2)</a> <a href="#ref-for-work-item③⑤">(3)</a> <a href="#ref-for-work-item③⑥">(4)</a> <a href="#ref-for-work-item③⑦">(5)</a>
-    <li><a href="#ref-for-work-item③⑧">2.2.6.3. releeased draft</a> <a href="#ref-for-work-item③⑨">(2)</a> <a href="#ref-for-work-item④⓪">(3)</a> <a href="#ref-for-work-item④①">(4)</a>
-    <li><a href="#ref-for-work-item④②">2.2.6.5. Final Report</a> <a href="#ref-for-work-item④③">(2)</a>
-    <li><a href="#ref-for-work-item④④">2.2.7.1. Create an ongoing community draft</a> <a href="#ref-for-work-item④⑤">(2)</a>
+    <li><a href="#ref-for-work-item">1. Introduction</a>
+    <li><a href="#ref-for-work-item①">2. Terminology</a> <a href="#ref-for-work-item②">(2)</a> <a href="#ref-for-work-item③">(3)</a> <a href="#ref-for-work-item④">(4)</a> <a href="#ref-for-work-item⑤">(5)</a>
+    <li><a href="#ref-for-work-item⑥">2.1.1. work item Process, 40K feet view</a> <a href="#ref-for-work-item⑦">(2)</a> <a href="#ref-for-work-item⑧">(3)</a>
+    <li><a href="#ref-for-work-item⑨">2.1.3. Examples (as of May 29, 2019)</a>
+    <li><a href="#ref-for-work-item①⓪">2.2.1. Scope of Work</a> <a href="#ref-for-work-item①①">(2)</a> <a href="#ref-for-work-item①②">(3)</a> <a href="#ref-for-work-item①③">(4)</a>
+    <li><a href="#ref-for-work-item①④">2.2.4. Lifecycle of Work Items</a>
+    <li><a href="#ref-for-work-item①⑤">2.2.5. work item Process</a>
+    <li><a href="#ref-for-work-item①⑥">2.2.5.1. Proposal</a> <a href="#ref-for-work-item①⑦">(2)</a> <a href="#ref-for-work-item①⑧">(3)</a> <a href="#ref-for-work-item①⑨">(4)</a> <a href="#ref-for-work-item②⓪">(5)</a> <a href="#ref-for-work-item②①">(6)</a>
+    <li><a href="#ref-for-work-item②②">2.2.5.2. Adoption</a>
+    <li><a href="#ref-for-work-item②③">2.2.5.3. community report Drafts</a>
+    <li><a href="#ref-for-work-item②④">2.2.5.4. Closure</a> <a href="#ref-for-work-item②⑤">(2)</a> <a href="#ref-for-work-item②⑥">(3)</a> <a href="#ref-for-work-item②⑦">(4)</a> <a href="#ref-for-work-item②⑧">(5)</a>
+    <li><a href="#ref-for-work-item②⑨">2.2.6.1. rough draft</a> <a href="#ref-for-work-item③⓪">(2)</a> <a href="#ref-for-work-item③①">(3)</a> <a href="#ref-for-work-item③②">(4)</a> <a href="#ref-for-work-item③③">(5)</a>
+    <li><a href="#ref-for-work-item③④">2.2.6.2. unreleased draft</a> <a href="#ref-for-work-item③⑤">(2)</a> <a href="#ref-for-work-item③⑥">(3)</a> <a href="#ref-for-work-item③⑦">(4)</a> <a href="#ref-for-work-item③⑧">(5)</a>
+    <li><a href="#ref-for-work-item③⑨">2.2.6.3. releeased draft</a> <a href="#ref-for-work-item④⓪">(2)</a> <a href="#ref-for-work-item④①">(3)</a> <a href="#ref-for-work-item④②">(4)</a>
+    <li><a href="#ref-for-work-item④③">2.2.6.5. Final Report</a> <a href="#ref-for-work-item④④">(2)</a>
+    <li><a href="#ref-for-work-item④⑤">2.2.7.1. Create an ongoing community draft</a> <a href="#ref-for-work-item④⑥">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="ccg-repository">
