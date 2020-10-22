@@ -38,13 +38,10 @@ Let’s look at specific subtypes of each work item type, along with some exampl
   <tr>
    <td>
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 <img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 <img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
    </td>
   </tr>
@@ -53,20 +50,13 @@ Let’s look at specific subtypes of each work item type, along with some exampl
 
 The 2 work item types follow different processes; let’s drill into those in the 20k foot view
 
-
 ### 20,000 feet view
 
 ![alt_text](images/image4.png "image_tooltip")
 
-
-
 ### Examples (as of May 29, 2019)
 
 Let’s look at some specific work items and where they are in the work item process
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image5.png "image_tooltip")
 
@@ -74,7 +64,6 @@ Let’s look at some specific work items and where they are in the work item pro
 
 See 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 [Details](#heading=h.1raokt7cjhj7) below. Thanks, and have a nice day
 
@@ -159,24 +148,12 @@ Proposals are made by creating a Github issue and announcing the proposal on the
 The Github Issue is posted to the CCG community repo [https://github.com/w3c-ccg/community/issues](https://github.com/w3c-ccg/community/issues) by using the “New Work Item” template as follows:
 
 
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image6.png "image_tooltip")
-
-
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image7.png "image_tooltip")
 
-
 A Work Item Proposal must include
-
-
 
 1. Abstract or Draft of proposed Work Item (typically a link to a google doc or a markdown page in Github)
 2. Editors responsible for advancing the Work Item. (Proposals may have a single editor; however, before approval of a Work Item it must have more than one editor, and editors must include representation from at least two companies.)
