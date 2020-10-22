@@ -11,5 +11,292 @@ Abstract: A short description of your spec, one or two sentences.
 
 Introduction {#intro}
 =====================
+To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which Work Items are created, managed, and finalized in the group.  (You can see the old process [here](https://www.google.com/url?q=https://www.w3.org/community/credentials/charter/&sa=D&ust=1519088657480000&usg=AFQjCNEjYaISD-6RIE-awU-dHiofJrsaVg).)
 
-Introduction here.
+
+## TL;DR
+
+### Work Item Process, 40K feet view
+
+![alt_text](images/image1.png "image_tooltip")
+
+
+The nodes with color correspond to the 2 types of work items:
+- Ongoing Community Draft
+- Community Report Draft
+
+
+Let’s look at specific subtypes of each work item type, along with some examples
+
+<table>
+  <tr>
+   <td>Ongoing Community Draft
+   </td>
+   <td>Community Report Draft
+   </td>
+  </tr>
+  <tr>
+   <td>
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+   <td>
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+   </td>
+  </tr>
+</table>
+
+
+The 2 work item types follow different processes; let’s drill into those in the 20k foot view
+
+
+### 20,000 feet view
+
+![alt_text](images/image4.png "image_tooltip")
+
+
+
+### Examples (as of May 29, 2019)
+
+Let’s look at some specific work items and where they are in the work item process
+
+
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image5.png "image_tooltip")
+
+### Further drill down
+
+See 
+
+<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Details"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+[Details](#heading=h.1raokt7cjhj7) below. Thanks, and have a nice day
+
+## W3C’s Requirements for CGs
+
+As per [W3C community process guidelines](https://www.w3.org/community/about/), Community Groups (CGs) are established for communities of stakeholders to socialize their ideas for possible future standardization. The W3C requirements for CGs include:
+
+*   CGs must be public, open to all, without fee
+*   CGs are Intellectual Property Rights (IPR) Balanced
+*   CGs allowed to be self determined and exist without a time limit.
+*   CGs are tuned for creating reports that are a transition to standards track, but there is no requirement that CG Reports advance to the standards track.
+*   CGs may choose to develop test suites, white papers, demos, or merely to hold discussions.
+*   CG Drafts and Final Reports must not suggest that they are standards or on the W3C standards-track.
+
+In the context of the larger W3C process, Community Groups can publish documents with relatively minimal [process](https://www.w3.org/community/about/faq/#how-do-we-publish-a-specification), content [requirements](https://www.w3.org/community/reports/reqs/) other than a [contributor license agreement](https://www.w3.org/community/about/agreements/cla/). Community documents are listed as either [Community Final Reports](https://www.w3.org/community/reports/) (with a final date and list of licensing commitments) or as Community Drafts (without a date or list of licensing commitments). For example, see the reports listed on the Web Payments CG’s W3C [home](https://www.w3.org/community/webpayments/) page.
+
+
+## Credentials Community Group Mission
+
+To recap the specific mission of W3C Credentials Community Group (revised and accepted in [October 2017](https://www.w3.org/community/credentials/charter/)):
+
+
+    The mission of the W3C Credentials Community Group is to explore the creation, storage, presentation, verification, and user control of credentials. We focus on a verifiable credential (a set of claims) created by an issuer about a subject—a person, group, or thing—and seek solutions inclusive of approaches such as: self-sovereign identity; presentation of proofs by the bearer; data minimization; and centralized, federated, and decentralized registry and identity systems. Our tasks include drafting and incubating Internet specifications for further standardization and prototyping and testing reference implementations.
+
+
+### Scope of Work
+
+In general, any work that advances the mission is welcome for consideration as a Work Item. A Work Item requires at least one group member willing to commit to being the first editor, another group member (from a different company) willing to be a co-editor, a suggested timeline, and the expected Work Item type, e.g., Community Final Report or Ongoing Repository.
+
+All CCG Work Items are expected to eventually be published as “official” output of the CCG on the [W3C website for the CCG](https://www.w3.org/community/credentials/). Any other tasks of the CCG will be managed informally and will not use this Work Item process. 
+
+
+### Types of Work Items
+
+All Work Items fall into the following types:
+
+*   **Community Reports** — a collaborative document, with the goal of being completed and published by the CCG as a [Final Report](https://www.w3.org/community/reports/reqs/) on [W3C website for the CCG](https://www.w3.org/community/credentials/). Community Reports must not suggest that they are standards or on the W3C standards-track.
+    *   There are three kinds of Community Reports, each of which has the goal of transitioning to a Community Final Report as follows:
+        *   **Community Specification**— A Final Report, with intended transition to becoming an official standards-track Working Group [Candidate Recommendation](https://www.w3.org/2005/10/Process-20051014/tr.html#q74). Example: [Decentralized Identifiers (DIDs)](https://w3c-ccg.github.io/did-spec/)
+        *   **Community Note** — A Final Report, with intended transition to becoming an official W3C Working Group [Note](https://www.w3.org/2005/10/Process-20051014/tr.html#q75).
+        *   **Community Commentary**— A Final Report not intended to transition to any official W3C Working Groups.
+        *   (Do we need a category for non-W3C technical work. External or non-w3c specification)
+    *   In our CCG process, Community Reports have 5 stages: 
+        *   **Rough Draft** (not published in the CCG repo, for instance in a Google Doc)
+        *   **Unreleased Draft** (iterated using a CCG repo but not tagged with a numbered release)
+        *   **Released Draft** (tagged with numbered release but not published to W3C)
+        *   **Published Draft**  (a tagged released vetted by CCG chairs for listing and announcement to W3C members as a Published Draft)
+        *   **Final Report** (formally finalized & approved by CCG, submitted to the W3C to be listed as a Final Report, with announcement to W3C members as a Final Report from the CCG).
+*   **Ongoing Community Drafts **— A Work Item with a repository that will be maintained by the CCG in perpetuity, May be listed by the CCG in as a “Community Draft” on [W3C Credentials Community Page](https://www.w3.org/community/credentials/), but never intended to be listed as a “Community Final Report”. Examples include registries, conformance tests, schemas, reference code, etc. _(Long term these may be replaced by new W3C processes, but currently as Working Groups currently terminate, until a new process for these is created by the W3C we maintain them as community groups are perpetual.)_
+    *   **Conformance Test Suite** — a special form of repository, with the goal as being a companion to a specification community report for testing of conformance.
+    *   **Registry** — a special form of repository, with the goal of providing an informative, long-lived list (such as credential status methods, DID methods, Linked Data Key Types)
+    *   **Schema**
+    *   **Reference Code**
+
+
+### IP Release
+
+
+
+*   All substantive contributors to any CCG Work Items must be members of the CCG with full IPR agreements signed. [https://www.w3.org/community/credentials/join](https://www.w3.org/community/credentials/join)
+    *   Ensure you have a W3 account: https://www.w3.org/accounts/request
+    *   W3C COMMUNITY CONTRIBUTOR LICENSE AGREEMENT (CLA): [W3C Community Contributor License Agreement (CLA) | Community and Business Groups](https://www.w3.org/community/about/agreements/cla/)
+
+
+### Lifecycle of Work Items
+
+
+
+1. Proposal
+2. Adoption
+3. Work Item Drafts
+4. Closure
+
+
+### Work Item Process
+
+
+#### Proposal
+
+Proposals are made by creating a Github issue and announcing the proposal on the CCG email discussion list.
+
+The Github Issue is posted to the CCG community repo [https://github.com/w3c-ccg/community/issues](https://github.com/w3c-ccg/community/issues) by using the “New Work Item” template as follows:
+
+
+
+<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image6.png "image_tooltip")
+
+
+
+
+<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image7.png "image_tooltip")
+
+
+A Work Item Proposal must include
+
+
+
+1. Abstract or Draft of proposed Work Item (typically a link to a google doc or a markdown page in Github)
+2. Editors responsible for advancing the Work Item. (Proposals may have a single editor; however, before approval of a Work Item it must have more than one editor, and editors must include representation from at least two companies.)
+
+Note: the Github Work Item template auto-populates the following fields:
+
+
+
+*   Labels the issue as “Proposed Work Item”
+*   Prompts to add the editors’ contact information and Github handles to the issue
+
+_NOTE: Do not create a new ccg repo in the CCG Community Github  (if you need a repo, create one in your personal Github account, and we can move it if the proposal is approved.)_
+
+Once the Work Item Proposal issue exists, post an announcement about the proposal to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)> with a link to the Github issue.
+
+
+#### Adoption
+
+Once proposed, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list as well as on the regular conference call at the Chairs discretion. During this time, proposers should seek support and consensus around the specific proposal. 
+
+Once there has been suitable opportunity for conversation, the chairs have made a determination about appropriateness, there is sufficient community support, and there are no principled objections, the chairs will formally accept the Work Item.
+
+
+#### Community Report Drafts
+
+Once approved and if appropriate, the Chairs will create a dedicated repo within the CCG Github account. The editors will facilitate CCG members contributions to iterate on the document as per W3C github cultural practices including transparency and public documentation of work item meetings. To manage the intellectual property of contributions, editors should maintain the Work Item Drafts repo with the most up-to-date version of the work. 
+
+
+#### Closure
+
+Work Items that succeed in becoming Community Final Reports are closed. The existing CCG repo description will be noted as being “FINAL:”
+
+If the chairs determine that progress on a Work Item is not progressing satisfactorily, they will notify the editors that they have one month to demonstrate progress. After this notice it is at the chairs discretion to keep the Work Item in the CCG roadmap, change the editors for the Work Item, or remove the Work Item from the CCG roadmap and formally close the work item, and the existing CCG repo description will be noted as being “CLOSED:”
+
+
+### Community Report Stages
+
+
+#### Rough Draft
+
+**Rough Draft **— A version of a COMMUNITY REPORT Work Item not in a CCG repo that was created and iterated in whatever medium or format the editors favor, e.g., Google Docs, Github, etc.
+
+
+
+*   An initial Rough Draft should be started by the Work Item proposed editors as part of the process of proposing a COMMUNITY REPORT Work Item.
+*   Rough Draft Work Items are NOT listed in the CCGs official roadmap.
+*   Contributions to the Rough Draft by CCG members are moderated in a manner suitable to the medium, under the guidance of the Work Item editors.
+*   Work Item editors must ensure that all substantial commitments to the Rough Draft are made by members that have signed the CCGs Contributors Agreement.
+*   Editors may iterate these Rough Draft Work Items at their initial location until they are ready, but the goal should be to transition them after approval as a Work Item to become ReSpec documents in a CCG repo as soon as reasonably possible.
+
+
+#### Unreleased Draft
+
+**Unreleased Draft** — A version of a COMMUNITY REPORT Work Item that exists as a repo in the official CCG GitHub Community, for iteration by CCG members through discussion, issues, and pull requests.
+
+
+
+*   When the editors of a Rough Draft Work Item agree that a version of a Rough Draft Work Item is ready for Github, and it has been formatted in ReSpec format (or appropriate format for destination such as IETF draft format), they may ask the CCG chairs to create a repo for the Work Item in the CCG Github Community, [as described here](https://w3c-ccg.github.io/create_repo.html). 
+*   Unreleased Draft Work Items ARE listed in the CCGs official roadmap, and the repo description begins with “UNRELEASED DRAFT:”
+*   Issues & pull requests to the Unreleased Draft are moderated by the Work Item editors, as per W3C github cultural practices, including transparency and public documentation of work item meetings. (details TBW).
+
+
+#### Released Draft
+
+**Released Draft **— A commit of the Work Item is tagged with a Git release number. This is a frozen moment in time during the collaboration.
+
+
+
+*   When the editors of a Work item believe that the collaboration has reached some milestone (say for broader commentary by other CCG members or to the broader community), at their discretion they may mark a particular version of the repo with a release tag. If the Work Item itself contains a version number (e.g. in its specification text), then that version must be increased with the commit following the release tag; work then continues on that next version. The repo description should be changed to begin with “RELEASED DRAFT:” to show evidence of the evolution of this Work Item.
+*   Release numbering must follow SemVer [https://semver.org](https://semver.org). Work items that are WG Specifications or WG Notes track (for future transitions to the  standards-track W3C Working Group Process) must be numbered below 1.0.0. Alternatively, drafts destined for non-W3C standards track may use the appropriate numbering system for the  intended standards organization.
+*   Editors should submit PR to [https://github.com/w3c-ccg/community/blob/master/work_items.md](https://github.com/w3c-ccg/community/blob/master/work_items.md) to update the work item stage and version number.
+*   The editors may continue to update with new releases numbers as needed.
+
+
+#### Published Draft
+
+**Published Draft **— A RELEASED DRAFT of a community report Work Item that is formally listed and published through the W3C publication process on the [W3C Credentials Community Page](https://www.w3.org/community/credentials/) and is shared on various W3C mailing lists and reports
+
+
+
+*   Prior to publishing, the Editors must verify that all substantive contributors to the RELEASED DRAFT have signed the CCGs Contributors Agreement, and request that the chairs publish the draft to the W3C.
+*   The chairs determine when a released draft is ready to listed as Published Draft and add the [W3C Credentials Community Page](https://www.w3.org/community/credentials/).
+*   Once published the repo description should begin with “PUBLISHED DRAFT:”
+
+
+#### Final Report
+
+**Final Report** — A PUBLISHED DRAFT that has been vetted by the chairs, and then also approved as a FINAL REPORT by the broader community group and the W3C staff. Upon acceptance, this Work Item is complete. 
+
+
+
+*   When a COMMUNITY REPORT is final, and work on that version is complete or a hand-off to a WG is imminent, the Work Item editors finalize any IPR commitments.
+*   The chairs review the PUBLISHED DRAFT for consideration as a FINAL REPORT and post the proposal to become a FINAL REPORT an email to the CCG discussion list for approval.
+*   Once proposed, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list as well as on the regular conference call at the Chairs discretion.
+*   If there is sufficient community support for the PUBLISHED DRAFT and there are no principled objections, the chairs at their discretion will submit the PUBLISHED DRAFT to the W3C staff as a FINAL REPORT.
+*   W3C Staff have final approval for all FINAL REPORTS listed in the [W3C Credentials Community Page](https://www.w3.org/community/credentials/). 
+*   If accepted by the W3C staff, the repo description will be changed to “FINAL REPORT:” and the work item is now closed.
+
+
+### Ongoing Community Draft Stages
+
+
+#### Create an Ongoing Community Draft
+
+Propose a CG Work Item with the intent to make it an Ongoing Community Draft (such as a CG Registry). The proposal would pass per the CG's documented consensus process.
+
+W3C leadership may propose a process for ongoing community drafts, which would apply to Ongoing Community Drafts in this CG.
+
+Any normative registry work items should be chartered by a W3C working group and shall be run according to that charter. Charter should include plans for releasing snapshots of the work item.
+
+
+### Tools
+
+_Git _
+
+_ReSpec_
+
+_[https://github.com/w3c/respec/wiki/ReSpec-Editor's-Guide](https://github.com/w3c/respec/wiki/ReSpec-Editor's-Guide)_
+
+_Google Docs_
+
+_IRC_
+
