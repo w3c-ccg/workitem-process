@@ -22,6 +22,12 @@ Abstract: Documentation for the W3C CCG Work Item process
     "status": "Adopted",
     "publisher": "W3C CCG"
   },
+  "CCG-MISSION": {
+    "href": "https://www.w3.org/community/credentials/",
+    "title": "W3C CCG Mission",
+    "status": "Adopted",
+    "publisher": "W3C CCG"
+  },
   "W3C-CCG-PAGE": {
     "href": "https://www.w3.org/community/credentials/",
     "title": "W3C Credentials Community Page",
@@ -103,7 +109,7 @@ Abstract: Documentation for the W3C CCG Work Item process
 
 Introduction {#intro}
 =====================
-To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which [=work item=]s are created, managed, and finalized in the group.  You can see [[FORMER-CCG-PROCESS]].
+To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which [=work item=]s are created, managed, and finalized in the group.
 
 Terminology {#terminology}
 ===========
@@ -144,75 +150,52 @@ Terminology {#terminology}
 
 <dfn>ccg repository</dfn> , for iteration by CCG members through discussion, issues, and pull requests, 
 
+TODO: include: https://www.w3.org/community/about/faq/#how-do-we-publish-a-report
+
+Reports are either “Draft” or “Final.” When a group announces a Final Report that is a Specification, the group asks participants to make patent licensing commitments under the W3C Community Final Specification Agreement. 
 
 <dfn>proposal</dfn>
 <dfn>adoption</dfn>
 <dfn>draft</dfn>
+<dfn>community report draft</dfn>
+<dfn>community report final</dfn>
+<dfn>final</dfn>
 <dfn>closure</dfn>
 
-## TL;DR
+## Context
 
-### [=work item=] Process, 40K feet view
+As per [[W3C-CG-GUIDELNES]], W3C Community Groups (CGs) are established for communities of stakeholders to socialize their ideas for possible future standardization. CGs can publish documents with relatively minimal process and requirements other than that contributors agree to the [[W3C-CLA]]. 
 
-![alt_text](images/image1.png "image_tooltip")
+The CCG manages a large number of work items, and in the course of its work, has developed additional conventions and tools to help streamline the process for its members. This is designed to conform to W3C's [[CG-PROCESS]] and [[CG-REQUIREMENTS]], which are the ultimate requirements for a W3C community group.
 
+If preferred, group members may propose a different process for their work item, which the chairs may choose to accept (on a case-by-case basis) as long as the W3C's [[CG-PROCESS]] and [[CG-REQUIREMENTS]] are met.
+
+## CCG Work Items Scope and Requirements
+
+In general, any work that advances the [[CCG-MISSION]] is welcome for consideration as a [=work item=]. 
+
+CCG requires the following in order to adopt a [=work item=]:
+- at least one group member willing to commit to being the first editor
+- another group member (from a different company) willing to be a co-editor
+- a suggested timeline
+- the expected [=work item=] type, e.g., [=final report=] TODO or [=ongoing community draft=]
+
+## CCG Process Overview
+
+<img src="images/wi_process_overview.png" width="400" alt="work item process overview" title="ork item process overview">
 
 The nodes with color correspond to the 2 types of work items:
 - [=ongoing community draft=]
-- [=community report=] Draft
+- [=community report draft=]
 
-Let’s look at specific subtypes of each [=work item=] type, along with some examples
+The 2 [=work item=] types follow different processes.
 
-<table>
-  <tr>
-   <td>[=ongoing community draft=]
-   </td>
-   <td>[=community report=] Draft
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
-
-   </td>
-   <td>
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
-   </td>
-  </tr>
-</table>
-
-
-The 2 [=work item=] types follow different processes; let’s drill into those in the 20k foot view
-
-### 20,000 feet view
-
-![alt_text](images/image4.png "image_tooltip")
-
-### Examples (as of May 29, 2019)
-
-Let’s look at some specific work items and where they are in the [=work item=] process
-
-![alt_text](images/image5.png "image_tooltip")
-
-### Further drill down
-
-See [Details](#heading=h.1raokt7cjhj7) below. Thanks, and have a nice day
-
-## W3C’s Requirements for CGs
-
-As per [[W3C-CG-GUIDELNES]], Community Groups (CGs) are established for communities of stakeholders to socialize their ideas for possible future standardization. CGs can publish documents with relatively minimal process  and requirements other than that contributors agree to the [[W3C-CLA]]. Community documents are listed as either a [[CG-FINAL-REPORT]] (with a final date and list of licensing commitments) or as [=community draft=] (without a date or list of licensing commitments).
-
-This process has been developed to confirm to W3C's [[CG-PROCESS]] and [[CG-REQUIREMENTS]].
-
-### Scope of Work
-
-In general, any work that advances the mission is welcome for consideration as a [=work item=]. A [=work item=] requires at least one group member willing to commit to being the first editor, another group member (from a different company) willing to be a co-editor, a suggested timeline, and the expected [=work item=] type, e.g.,  [=final report=] or [=ongoing community draft=].
-
-All CCG Work Items are expected to eventually be published as “official” output of the CCG on the [[W3C-CCG-PAGE]]. Any other tasks of the CCG will be managed informally and will not use this [=work item=] process. 
-
+<img src="images/wi_process_detail.png" width="400" alt="work item process details" title="work item process details">
 
 ### Types of Work Items
+
+<img src="images/types.png" width="800" alt="work item types" title="work item types">
+
 
 All Work Items fall into the following types:
 
@@ -247,7 +230,8 @@ The [=work item=] lifecycle stages include:
 1. [=proposal=]
 2. [=adoption=]
 3. [=draft=]
-4. [=closure=]
+4. [=final=]
+5. [=archived=]
 
 ### [=work item=] process
 
@@ -363,3 +347,9 @@ _Google Docs_
 
 _IRC_
 
+
+
+All CCG Work Items are expected to eventually be published as “official” output of the CCG on the [[W3C-CCG-PAGE]]. Any other tasks of the CCG will be managed informally and will not use this [=work item=] process. 
+
+
+CG documents are listed as either a [[CG-FINAL-REPORT]] (with a final date and list of licensing commitments) or as [=community draft=] (without a date or list of licensing commitments).
