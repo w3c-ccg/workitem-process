@@ -1,12 +1,12 @@
 <pre class='metadata'>
-Title: Your Spec Title
-Shortname: your-spec
+Title: W3C CCG Work Item Process
+Shortname: CCG-WI-PROCESS
 Level: 1
 Status: w3c/CG-DRAFT
 Group: w3c-ccg
-URL: Your spec url
-Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
-Abstract: A short description of your spec, one or two sentences.
+URL: https://w3c-ccg.github.io/workitem-process/
+Editor: Kim Hamilton Duffy, MIT Open Learning, kimhd@mit.edu, https://www.okimsrazor.com/
+Abstract: Documentation for the W3C CCG Work Item process
 </pre>
 
 <pre class="biblio">
@@ -145,6 +145,11 @@ Terminology {#terminology}
 <dfn>ccg repository</dfn> , for iteration by CCG members through discussion, issues, and pull requests, 
 
 
+<dfn>proposal</dfn>
+<dfn>adoption</dfn>
+<dfn>draft</dfn>
+<dfn>closure</dfn>
+
 ## TL;DR
 
 ### [=work item=] Process, 40K feet view
@@ -235,18 +240,22 @@ All Work Items fall into the following types:
     *   W3C COMMUNITY CONTRIBUTOR LICENSE AGREEMENT (CLA) [[W3C-CLA]]
 
 
-### Lifecycle of Work Items
+### [=work item=] lifecycle stages
 
-1. Proposal
-2. Adoption
-3. [=work item=] Drafts
-4. Closure
+The [=work item=] lifecycle stages include:
 
-### [=work item=] Process
+1. [=proposal=]
+2. [=adoption=]
+3. [=draft=]
+4. [=closure=]
 
-#### Proposal
+### [=work item=] process
 
-Proposals are made by creating a Github issue and announcing the proposal on the CCG email discussion list.
+[=work item=]s progress through lifecycle stages as follows:
+
+#### [=proposal=]
+
+[=proposal=] are made by creating a Github issue and announcing on the CCG email discussion list.
 
 The Github Issue is posted to the [=ccg repository=] [[CCG-GITHUB-ISSUES]] by using the “New Work Item” template as follows:
 
@@ -254,10 +263,10 @@ The Github Issue is posted to the [=ccg repository=] [[CCG-GITHUB-ISSUES]] by us
 
 ![alt_text](images/image7.png "image_tooltip")
 
-A [=work item=] Proposal must include
+A [=proposal=] must include:
 
 1. Abstract or Draft of proposed [=work item=] (typically a link to a google doc or a markdown page in Github)
-2. Editors responsible for advancing the [=work item=]. (Proposals may have a single editor; however, before approval of a [=work item=] it must have more than one editor, and editors must include representation from at least two companies.)
+2. Editors responsible for advancing the [=work item=]. [=proposal=] may have a single editor; however, before approval of a [=work item=] it must have more than one editor, and editors must include representation from at least two companies.
 
 Note: the Github [=work item=] template auto-populates the following fields:
 
@@ -266,27 +275,31 @@ Note: the Github [=work item=] template auto-populates the following fields:
 
 _NOTE: Do not create a new ccg repo in the CCG Community Github  (if you need a repo, create one in your personal Github account, and we can move it if the proposal is approved.)_
 
-Once the [=work item=] Proposal issue exists, post an announcement about the proposal to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)> with a link to the Github issue.
+Once the [=proposal=] github issue exists, post an announcement to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)> with a link to the Github issue.
 
-#### Adoption
+####  [=adoption=]
 
-Once proposed, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list as well as on the regular conference call at the Chairs discretion. During this time, proposers should seek support and consensus around the specific proposal. 
+Once a [=proposal=] is announced, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list and the regular conference call at the Chairs discretion. During this time, proposers should seek support and consensus around their specific  [=proposal=]. 
 
-Once there has been suitable opportunity for conversation, the chairs have made a determination about appropriateness, there is sufficient community support, and there are no principled objections, the chairs will formally accept the [=work item=].
+Once there has been suitable opportunity for conversation, the chairs have made a determination. If the chairs decide the [=work item=] is appropriate, has sufficient community support, and there are no principled objections, the chairs will formally accept the [=work item=].
 
-#### [=community report=] Drafts
+#### [=draft=]
 
-Once approved and if appropriate, the Chairs will create a [=ccg repository=]. The editors will facilitate CCG members contributions to iterate on the document as per W3C github cultural practices including transparency and public documentation of work item meetings. To manage the intellectual property of contributions, editors should maintain the [=work item=] Drafts repo with the most up-to-date version of the work. 
+Once approved, the Chairs will facilitate creation of a [=ccg repository=]. The editors will facilitate CCG members contributions to iterate on the document as per W3C github cultural practices including transparency and public documentation of work item meetings. To manage the intellectual property of contributions, editors should maintain [=draft=]s with the most up-to-date version of the work. 
 
-#### Closure
+Depending on the specific type of [=work item=], the [=draft=] phases breaks down differently, as described subsequently.
+
+#### [=closure=]
 
 Work Items that succeed in becoming Community [=final report=] are closed. The existing [=ccg repository=] description will be noted as being “FINAL:”
 
 If the chairs determine that progress on a [=work item=] is not progressing satisfactorily, they will notify the editors that they have one month to demonstrate progress. After this notice it is at the chairs discretion to keep the [=work item=] in the CCG roadmap, change the editors for the [=work item=], or remove the [=work item=] from the CCG roadmap and formally close the [=work item=], and the existing [=ccg repository=] description will be noted as being “CLOSED:”
 
-### [=community report=] Stages
+### [=community report=] stages
 
 #### [=rough draft=]
+
+TODO: this is before start???
 
 *   An initial [=rough draft=] should be started by the [=work item=] proposed editors as part of the process of proposing a [=community report=] [=work item=].
 *   [=rough draft=] Work Items are NOT listed in the CCG's official roadmap.
@@ -297,7 +310,7 @@ If the chairs determine that progress on a [=work item=] is not progressing sati
 
 #### [=unreleased draft=]
 
-*   When the editors of a [=rough draft=] [=work item=] agree that a version of a [=rough draft=] [=work item=] is ready for Github, and it has been formatted in ReSpec format (or appropriate format for destination such as IETF draft format), they may ask the CCG chairs to create a [=ccg repository=] for the [=work item=] in the CCG Github Community, as described in [[CCG-CREATE-REPO]]. 
+*   When the editors of a [=rough draft=] [=work item=] agree that a version of a [=rough draft=] is ready for Github, and it has been formatted in ReSpec format (or appropriate format for destination such as IETF draft format), they may ask the CCG chairs to create a [=ccg repository=] for the [=work item=] in the CCG Github Community, as described in [[CCG-CREATE-REPO]]. 
 *   Unreleased Draft Work Items ARE listed in the CCGs official roadmap, and the [=ccg repository=] description begins with “UNRELEASED DRAFT:”
 *   Issues & pull requests to the Unreleased Draft are moderated by the [=work item=] editors, as per W3C github cultural practices, including transparency and public documentation of [=work item=] meetings. (details TBW).
 
