@@ -6,7 +6,7 @@ Status: w3c/CG-DRAFT
 Group: w3c-ccg
 URL: https://w3c-ccg.github.io/workitem-process/
 Editor: Kim Hamilton Duffy, MIT Open Learning, kimhd@mit.edu, https://www.okimsrazor.com/
-Editor: Heather Vescent, The Purple Tornado Inc https://www.thepurpletornado.com, https://www.heathervescent.com 
+Editor: Heather Vescent, The Purple Tornado Inc https://www.thepurpletornado.com, heathervescent@gmail, https://www.heathervescent.com 
 Editor: Wayne Chang, Spruce Systems Inc. https://spruceid.com, wyc@fastmail.fm, https://wycd.net
 !Authors: Joe Andrieu, Legendary Requirements, http://legreq.com/
 !Authors: Christopher Allen, Blockchain Commons, http://www.lifewithalacrity.com/
