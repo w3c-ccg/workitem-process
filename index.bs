@@ -16,12 +16,6 @@ Abstract: Documentation for the W3C CCG Work Item process
     "title": "W3C community process guidelines",
     "publisher": "W3C"
   },
-  "CCG-CHARTER": {
-    "href": "https://www.w3.org/community/credentials/charter/",
-    "title": "W3C CCG Charter",
-    "status": "Adopted",
-    "publisher": "W3C CCG"
-  },
   "CCG-MISSION": {
     "href": "https://www.w3.org/community/credentials/",
     "title": "W3C CCG Mission",
@@ -33,16 +27,6 @@ Abstract: Documentation for the W3C CCG Work Item process
     "title": "W3C Credentials Community Page",
     "publisher": "W3C CCG"
   },
-  "W3C-CCG-JOIN": {
-    "href": "https://www.w3.org/community/credentials/join",
-    "title": "Join W3C Credentials Community Group Link",
-    "publisher": "W3C"
-  },
-  "W3C-ACCOUNT": {
-    "href": "https://www.w3.org/accounts/request",
-    "title": "W3C Account Signup",
-    "publisher": "W3C"
-  },
   "W3C-CLA": {
     "href": "https://www.w3.org/community/about/agreements/cla/",
     "title": "W3C Community Contributor License Agreement (CLA)",
@@ -50,7 +34,12 @@ Abstract: Documentation for the W3C CCG Work Item process
   },
   "CG-PROCESS": {
     "href": "https://www.w3.org/community/about/faq/#how-do-we-publish-a-specification",
-    "title": "Community Group Process",
+    "title": "Community Group Process FAQ",
+    "publisher": "W3C"
+  },
+  "CG-REPORT": {
+    "href": "https://www.w3.org/community/about/faq/#how-do-we-publish-a-report",
+    "title": "Community Group Report FAQ",
     "publisher": "W3C"
   },
   "CG-REQUIREMENTS": {
@@ -84,7 +73,7 @@ Abstract: Documentation for the W3C CCG Work Item process
     "publisher": "W3C-CCG"
   },
   "SEMVER": {
-    "href": "TODO",
+    "href": "https://semver.org/",
     "title": "Semantic Versioning"
   },
   "FORMER-CCG-PROCESS": {
@@ -100,8 +89,13 @@ Abstract: Documentation for the W3C CCG Work Item process
     "title": "W3C Working Group Note"
   },
   "W3C-WG": {
-    "href": "??",
-    "title": "W3C Working Group"
+    "href": "https://www.w3.org/groups/wg/",
+    "title": "W3C Working Groups"
+  },
+  "CCG-PROPOSE-WORK-ITEM": {
+    "href": "https://w3c-ccg.github.io/propose_work_item.html",
+    "title": "Propose a CCG Work Item",
+    "publisher": "W3C-CCG"
   }
 }
 
@@ -109,57 +103,58 @@ Abstract: Documentation for the W3C CCG Work Item process
 
 Introduction {#intro}
 =====================
-To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which a CCG [=work item=] is created, managed, and finalized in the group.
+To streamline and clarify how the W3C Credentials Community Group operates, this document outlines the process by which a CCG [=work item=] is created, managed, and finalized by the group.
 
 Terminology {#terminology}
 ===========
 
-<dfn>community report</dfn>: A collaborative document, with the goal of being completed and published by the CCG as a [=final report=] on [[W3C-CCG-PAGE]]. [=community report=]]s must not suggest that they are standards or on the W3C standards-track.
+<dfn>community report</dfn>: A [=category=] of CCG [=work item=] whose [=target deliverable=] is a collaborative document, with the goal of being completed and published by the CCG as a [=final report=] on [[W3C-CCG-PAGE]]. A [=community report=] must not suggest it is a standard or on the W3C standard track.
 
-<dfn>community specification</dfn>: A [=final report=], with intended transition to becoming a standards-track working group [[W3C-CANDIDATE-REC]]
+<dfn>ongoing community draft</dfn> — A [=category=] of CCG [=work item=] with a [=ccg repository=] that will be maintained by the CCG in perpetuity. It is not intended to beome a [=final report=]. Examples include registries, conformance tests, schemas, reference code, etc.
 
-<dfn>community note</dfn>: A [=final report=], with intended transition to becoming a [[W3C-WG-NOTE]]
+<dfn>community specification</dfn>: A [=type=] of [=community report=], with intended transition to becoming a standard track working group [[W3C-CANDIDATE-REC]]
 
-<dfn>community commentary</dfn>: A [=final report=] not intended to transition to a [[W3C-WG]].
+<dfn>community note</dfn>: A type of [=community report=], with intended transition to becoming a [[W3C-WG-NOTE]]
 
-<dfn>rough draft</dfn>: Stage of a [=community report=] [=work item=] that is not yet available in a [=ccg repository=], but is being iterated on via whatever medium or format the editors favor, e.g., Google Docs, Github, etc
+<dfn>community commentary</dfn>: A type of [=community report=] not intended to transition to a [[W3C-WG]].
+
+<dfn>rough draft</dfn>: A [=stage=] of a [=community report=] [=work item=] that is not yet available in a [=ccg repository=], but is being iterated on via whatever medium or format the editors favor, e.g., Google Docs, Github, etc
  
-<dfn>unreleased draft</dfn>: Stage of a [=community report=] [=work item=] that exists as a [=ccg repo=] but which is not yet a [=released draft=]
+<dfn>unreleased draft</dfn>: A [=stage=] of a [=community report=] [=work item=] that exists as a [=ccg repository=] but which is not yet a [=released draft=]
 
-<dfn>released draft</dfn>: Stage of a [=community report=] [=work item=] that is tagged with a git release number but not published to W3C. 
+<dfn>released draft</dfn>: A [=stage=] of a [=community report=] [=work item=] that is tagged with a git release number but not published to W3C. 
 
-<dfn>published draft</dfn>: A [=released draft=] that has been approved by CCG chairs and is listed and published on the [[W3C-CCG-PAGE]]
+<dfn>published draft</dfn>: A [=stage=] of [=community report=] [=work item=] in which CCG chairs have approved a [=released draft=] and published it on the [[W3C-CCG-PAGE]]
 
-<dfn>final report</dfn>: A [=published draft =] that has been approved by the CCG community and the W3C staff.  Upon acceptance, this [=work item=] is accepted as a [[CG-FINAL-REPORT]].
+<dfn>final report</dfn>: A [=stage=] of [=community report=] [=work item=] in which a [=published draft=] has been approved by the CCG community and the W3C staff, and is considered accepted as a [[CG-FINAL-REPORT]].
 
-<dfn>ongoing community draft</dfn> — A [=work item=] with a [=ccg repository=] that will be maintained by the CCG in perpetuity. It is never intended to beome a [=final report=]. Examples include registries, conformance tests, schemas, reference code, etc. _(Long term these may be replaced by new W3C processes, but currently as Working Groups currently terminate, until a new process for these is created by the W3C we maintain them as community groups are perpetual.)_
+<dfn>conformance test suite</dfn>: A [=type=] of [=ongoing community draft=], with the goal as being a companion to a [=community specification=] for testing of conformance.
 
-<dfn>conformance test suite</dfn> — a special form of [=ccg repository=], with the goal as being a companion to a [=community specification=] for testing of conformance.
+<dfn>registry</dfn>: A [=type=] of [=ongoing community draft=], with the goal of providing an informative, long-lived list (such as credential status methods, DID methods, Linked Data Key Types)
 
-<dfn>registry</dfn> — a special form of [=ccg repository=], with the goal of providing an informative, long-lived list (such as credential status methods, DID methods, Linked Data Key Types)
+<dfn>schema</dfn>: A [=type=] of [=ongoing community draft=], with the goal of providing reference schemas, such as JSON-LD contexts or JSON schemas.
 
-<dfn>schema</dfn>
+<dfn>experimental implementation</dfn>: A [=type=] of [=ongoing community draft=], with the goal of providing an example implementation of a [=community specification=].
 
-<dfn>reference code</dfn>
+<dfn>work item</dfn>: An effort that is adopted by the CCG for further development and refinement. The process for CCG work items is described in this document.
 
-<dfn>work item</dfn>
-
-<dfn>working group</dfn>
-
-<dfn>release tag</dfn>
+<dfn>release tag</dfn>: A git concept for "freezing" a git artifact.
 
 <dfn>ccg repository</dfn> , for iteration by CCG members through discussion, issues, and pull requests, 
 
-TODO: include: https://www.w3.org/community/about/faq/#how-do-we-publish-a-report
+<dfn>proposal</dfn>:  The initial [=stage=] of a CCG [=work item=] in which the CCG member announces their intention.
+<dfn>adoption</dfn>: The [=stage=] after [=proposal=] in which the CCG community discusses the proposed [=work item=]
+<dfn>draft</dfn>: The [=stage=] after a CCG [=work item=] has been accepted
+<dfn>final</dfn>:  The final success [=stage=] of CCG [=work item=]. This only applies to [=community report=] [=work items=], and not [=ongoing community drafts=].
+<dfn>archived</dfn>: A [=stage=] of CCG [=work item=] which has been retired by the Chairs due to inactivity
 
-Reports are either “Draft” or “Final.” When a group announces a Final Report that is a Specification, the group asks participants to make patent licensing commitments under the W3C Community Final Specification Agreement. 
+<dfn>stage</dfn>: Refers to a phase of a CCG [=work item=] within the overall lifecycle
 
-<dfn>proposal</dfn>
-<dfn>adoption</dfn>
-<dfn>draft</dfn>
-<dfn>community report draft</dfn>
-<dfn>community report final</dfn>
-<dfn>final</dfn>
+<dfn>category</dfn>: A course classification of CCG [=work items=]
+
+<dfn>type</dfn>:  A finer classification of CCG [=work items=]
+
+<dfn>target deliverable</dfn>:  The desired output or outcome of a CCG [=work item=], which corresponds to CCG's [=work item=] classifications
 
 ## Work Item Requirements
 
@@ -171,29 +166,31 @@ The CCG manages a large number of work items, and in the course of its work, has
 
 Group members may propose a different process for their work item, which the chairs may choose to accept (on a case-by-case basis) as long as the W3C's [[CG-PROCESS]] and [[CG-REQUIREMENTS]] are met.
 
+NOTE: Long term these may be replaced by new W3C processes, but currently as Working Groups currently terminate, until a new process for these is created by the W3C we maintain them as community groups are perpetual.
+
 ### Additional CCG Requirements
 The CCG has additional requirements requires the following in order to adopt a [=work item=]:
 - at least one group member willing to commit to being the first editor
 - another group member (from a different company) willing to be a co-editor
 - a suggested timeline
-- the expected [=work item=] type, e.g., [=final report=] TODO or [=ongoing community draft=]
+- the expected [=work item=] [=type=]
 
 ### Work Item Scope
 In general, any work that advances the [[CCG-MISSION]] is welcome for consideration as a [=work item=]. 
 
-## Work Item Classification
+## Work Item / Target Deliverable Classification
 
-### Work Item Categories
+### Categories
 
-The CCG distinguishes between two [=work item=] categories:
+CCG classifies its [=work item=]s by the [=target deliverable=]. The first relevant classification is a [=target deliverable=] [=category=]; the CCG distinguishes between two:
 - [=community report=]
 - [=ongoing community draft=]
 
 The [=ongoing community draft=] category is not common in the W3C, but has emerged as a useful concept in the CCG to cover ongoing [=work item=]s that are useful to the community, while not being intended to turn into a [=final report=]
 
-### Work Item Types
+### Types
 
-These categories are further broken down into the following types:
+These [=categories=] are further broken down into the following [=target deliverable=] [=types=]:
 
 *   [=community report=]: There are three kinds of [=community report=], each of which has the goal of transitioning to a [=final report=], as follows:
     *   [=community specification=]
@@ -203,14 +200,16 @@ These categories are further broken down into the following types:
     *   [=conformance test suite=]
     *   [=registry=]
     *   [=schema=]
-    *   [=reference code=]
+    *   [=experimental implementation=]
 
+Figure: Types of Work Items
 <img src="images/types.png" width="800" alt="work item types" title="work item types">
 
 ## Work Item Lifecycle
 
 A CCG [=work item=]'s lifecycle differs depending on its category:
 
+Figure: Work Item Process Overview
 <img src="images/wi_process_overview.png" width="400" alt="work item process overview" title="work item process overview">
 
 The lifecycle stages are:
@@ -221,124 +220,86 @@ The lifecycle stages are:
 4. [=archived=]
 5. [=final=] -- not relevant for [=ongoing community draft=]
 
-### Proposal
+### Proposal Stage
 
-[=proposal=] are made by creating a Github issue and announcing on the CCG email discussion list.
+A more concise version of this information is made available at [[CCG-PROPOSE-WORK-ITEM]].
 
-The Github Issue is posted to the [=ccg repository=] [[CCG-GITHUB-ISSUES]] by using the “New Work Item” template as follows:
-
-![alt_text](images/image6.png "image_tooltip")
-
-![alt_text](images/image7.png "image_tooltip")
-
-A [=proposal=] must include:
+A CCG member initiates a [=proposal=] by creating a [[CCG-GITHUB-ISSUES]] with the “New Work Item” template. The template prompts for the following [=proposal=] elements:
 
 1. Abstract or Draft of proposed [=work item=] (typically a link to a google doc or a markdown page in Github)
 2. Editors responsible for advancing the [=work item=]. Initially, a [=proposal=] may have a single editor; however, before approval of a [=work item=] it must have more than one editor, and editors must include representation from at least two companies.
 
-Note: the Github [=work item=] template auto-populates the following fields:
+Once the [=proposal=] github issue exists, the member should post the announcement to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)>, linking to the Github issue.
 
-*   Labels the issue as “Proposed Work Item”
-*   Prompts to add the editors’ contact information and Github handles to the issue
+###  Adoption Stage
 
-_NOTE: Do not create a new ccg repo in the CCG Community Github  (if you need a repo, create one in your personal Github account, and we can move it if the proposal is approved.)_
+Once a [=proposal=] is announced, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list and the regular conference call at the Chairs discretion. During this time, proposers should seek support and consensus around their specific [=proposal=]. 
 
-Once the [=proposal=] github issue exists, post an announcement to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)> with a link to the Github issue.
+Once there has been suitable opportunity for conversation, the chairs will make a determination as follows: if the chairs decide the [=work item=] is appropriate, has sufficient community support, and there are no principled objections, the chairs will formally accept the [=work item=].
 
-###  Adoption
+### Draft Stage
 
-Once a [=proposal=] is announced, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list and the regular conference call at the Chairs discretion. During this time, proposers should seek support and consensus around their specific  [=proposal=]. 
+Once approved, the Chairs will facilitate creation of a [=ccg repository=], as described in [[CCG-CREATE-REPO]]. . The editors will facilitate CCG progress on the [=work item=] per W3C practices including transparency and public documentation of meetings discussing the [=work item=]. To manage the intellectual property of contributions, editors should track [=work item=] contributors in the drafts.
 
-Once there has been suitable opportunity for conversation, the chairs will make a determination. If the chairs decide the [=work item=] is appropriate, has sufficient community support, and there are no principled objections, the chairs will formally accept the [=work item=].
+### Final Stage
 
-### Draft
+A [=work item=] that succeeds in becoming a [=final report=] is closed. Details for this follow in [[#community-report-stages]]. The existing [=ccg repository=] description will be noted as being “FINAL:”.
 
-Once approved, the Chairs will facilitate creation of a [=ccg repository=]. The editors will facilitate CCG members contributions to iterate on the document as per W3C github cultural practices including transparency and public documentation of work item meetings. To manage the intellectual property of contributions, editors should maintain [=draft=]s with the most up-to-date version of the work. 
+[=ongoing community drafts=] are not eligible to enter this stage.
 
-Depending on the specific type of [=work item=], the [=draft=] phases breaks down differently, as described subsequently.
-
-### Final
-
-Work Items that succeed in becoming Community [=final report=] are closed. The existing [=ccg repository=] description will be noted as being “FINAL:”
-
-### Archived
+### Archived Stage
 If the chairs determine that progress on a [=work item=] is not progressing satisfactorily, they will notify the editors that they have one month to demonstrate progress. After this notice it is at the chairs discretion to keep the [=work item=] in the CCG roadmap, change the editors for the [=work item=], or remove the [=work item=] from the CCG roadmap and formally close the [=work item=], and the existing [=ccg repository=] description will be noted as being “CLOSED:”
 
-### Community Report stages
+ISSUE: Applies here and in following sections. The convention of marking stage by the repository description prefix may not be the best way; should we use tags instead?
 
-Drilling in, the processes are as follows. TODO: figure
+## Work Item Stages, by Category
 
+This section provides more detail to [=work item=] stages, depending on the [=work item=] [=category=]
+
+Figure: Work Item Process Detail
 <img src="images/wi_process_detail.png" width="400" alt="work item process details" title="work item process details">
 
-#### Rough Draft
+### Community Report Stages
 
-TODO: this is before start???
+#### Rough Draft Stage
 
 *   An initial [=rough draft=] should be started by the [=work item=] proposed editors as part of the process of proposing a [=community report=] [=work item=].
-*   [=rough draft=] Work Items are NOT listed in the CCG's official roadmap.
 *   Contributions to the [=rough draft=] by CCG members are moderated in a manner suitable to the medium, under the guidance of the [=work item=] editors.
 *   [=work item=] editors must ensure that all substantial commitments to the [=rough draft=] are made by members that have signed the CCGs Contributors Agreement.
-*   Editors may iterate these [=rough draft=] Work Items at their initial location until they are ready, but the goal should be to transition them after approval as a [=work item=] to become ReSpec documents in a [=ccg repository=] as soon as reasonably possible.
+*   Editors may iterate a [=rough draft=] [=work item=] at their initial location until they are ready, but the goal should be to transition them to a [=ccg repository=] in an acceptable format (details in [[#unreleased-draft-stage]]) as soon as reasonably possible.
 
+#### Unreleased Draft Stage
 
-#### Unreleased Draft
+*   When the editors of a [=rough draft=] [=work item=] agree that a version of a [=rough draft=] is ready for Github, and it has been formatted in ReSpec format (or appropriate format for destination such as IETF draft format), they may migrate to the [=ccg repository=] that has been created for them. 
+*   Issues & pull requests to the [=unreleased draft=] are moderated by the [=work item=] editors, as per W3C github cultural practices, including transparency and public documentation of [=work item=] meetings.
 
-*   When the editors of a [=rough draft=] [=work item=] agree that a version of a [=rough draft=] is ready for Github, and it has been formatted in ReSpec format (or appropriate format for destination such as IETF draft format), they may ask the CCG chairs to create a [=ccg repository=] for the [=work item=] in the CCG Github Community, as described in [[CCG-CREATE-REPO]]. 
-*   [=unreleased draft=] [=work item=]s are listed in the CCGs official roadmap, and the [=ccg repository=] description begins with “UNRELEASED DRAFT:”
-*   Issues & pull requests to the [=unreleased draft=] are moderated by the [=work item=] editors, as per W3C github cultural practices, including transparency and public documentation of [=work item=] meetings. (details TBW).
+#### Releeased Draft Stage
 
-
-#### Releeased Draft
-
-*   When the editors of a [=work item=] believe that the collaboration has reached some milestone (say for broader commentary by other CCG members or to the broader community), at their discretion they may mark a particular version of the [=ccg repository=] with a release tag. If the [=work item=] itself contains a version number (e.g. in its specification text), then that version must be increased with the commit following the release tag; work then continues on that next version. The [=ccg repository=] description should be changed to begin with “RELEASED DRAFT:” to show evidence of the evolution of this [=work item=].
-*   Release numbering must follow [[SEMVER]]. Work items that are WG Specifications or WG Notes track (for future transitions to the  standards-track W3C Working Group Process) must be numbered below 1.0.0. Alternatively, drafts destined for non-W3C standards track may use the appropriate numbering system for the  intended standards organization.
-*   Editors should submit PR to [[CCG-WORK-ITEMS]] to update the [=work item=] stage and version number.
+*   When the editors of a [=work item=] believe that the collaboration has reached some milestone (say for broader commentary by other CCG members or to the broader community), at their discretion they may mark a particular version of the [=ccg repository=] with a [=release tag=]. If the [=work item=] itself contains a version number (e.g. in its specification text), then that version must be increased with the commit following the [=release tag=]; work then continues on that next version.
+*   Release numbering must follow [[SEMVER]]. Work items that are WG Specifications or WG Notes track (for future transitions to the  standards-track W3C Working Group Process) must be numbered below 1.0.0. Alternatively, drafts destined for non-W3C standards track may use the appropriate numbering system for the intended standards organization.
+*   Editors should submit a PR to [[CCG-WORK-ITEMS]] to update the [=work item=] stage and version number.
 *   The editors may continue to update with new releases numbers as needed.
 
-#### Published Draft
+#### Published Draft Stage
 
-*   Prior to publishing, the Editors must verify that all substantive contributors to the [=released draft=] have signed the CCGs Contributors Agreement, and request that the chairs publish the draft to the W3C.
-*   The chairs determine when a [=released draft=]  is ready to listed as [=published draft=] and add the [[W3C-CCG-PAGE]].
-*   Once published the [=ccg repository=] description should begin with “PUBLISHED DRAFT:”
+*   Prior to publishing, the Editors must verify that all substantive contributors to the [=released draft=] have signed the CCGs Contributors' Agreement, and request that the chairs publish the draft to the W3C.
+*   The chairs determine when a [=released draft=] is ready to listed as a [=published draft=] on the [[W3C-CCG-PAGE]].
 
 
-#### Final Report
+#### Final Report Stage
 
 *   When a [=community report=] is final, and work on that version is complete or a hand-off to a WG is imminent, the [=work item=] editors finalize any IPR commitments.
-*   The chairs review the [=published draft=] for consideration as a [=final report=] and post the proposal to become a [=final report=]  an email to the CCG discussion list for approval.
+*   The chairs review the [=published draft=] for consideration as a [=final report=] and post the proposal to become a [=final report=] an email to the CCG discussion list for approval.
 *   Once proposed, the community group will discuss it for a period of at least one week. This discussion may take place on the mailing list as well as on the regular conference call at the Chairs discretion.
 *   If there is sufficient community support for the [=published draft=] and there are no principled objections, the chairs at their discretion will submit the [=published draft=] to the W3C staff as a [=final report=].
 *   W3C Staff have final approval for all [=final report=] listed in the [[W3C-CCG-PAGE]]. 
 *   If accepted by the W3C staff, the [=ccg repository=] description will be changed to “FINAL REPORT:” and the [=work item=] is now closed.
 
 
-#### Create an [=ongoing community draft=]
+### Ongoing community draft stages
 
 Propose a CG [=work item=] with the intent to make it an [=ongoing community draft=] (such as a CG Registry). The proposal would pass per the CG's documented consensus process.
 
 W3C leadership may propose a [=ongoing community draft=] process, in which case this would be revised to include that. 
 
 Any normative registry work items should be chartered by a W3C working group and shall be run according to that charter. Charter should include plans for releasing snapshots of the [=work item=].
-
-
-### Tools
-
-_Git _
-
-_ReSpec_
-
-_[https://github.com/w3c/respec/wiki/ReSpec-Editor's-Guide](https://github.com/w3c/respec/wiki/ReSpec-Editor's-Guide)_
-
-_Google Docs_
-
-_IRC_
-
-
-
-All CCG Work Items are expected to eventually be published as “official” output of the CCG on the [[W3C-CCG-PAGE]]. Any other tasks of the CCG will be managed informally and will not use this [=work item=] process. 
-
-
-CG documents are listed as either a [[CG-FINAL-REPORT]] (with a final date and list of licensing commitments) or as [=community draft=] (without a date or list of licensing commitments).
-
-
-ongoing draft examples:
