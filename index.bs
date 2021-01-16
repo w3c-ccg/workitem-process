@@ -213,6 +213,7 @@ The [=ongoing community draft=] category is not common in the W3C, but has emerg
 The [=task force=] category is not common in the W3C, but has emerged as a useful activity in the CCG to discuss topics of importance to the community.  Task forces must have
 - at least one leader
 - completed requirements for a [=work item=]
+- a charter that addresses the scope, deliverables, relationship to external groups, participation requirements and communication. The charter should be readily accessible, and a copy must be sent to the CCG mailing list for archival purposes.
 
 For a task force to remain active, it must
 - provide a status update report within a timely manner of the chairs' request (meeting minutes will typically suffice)
