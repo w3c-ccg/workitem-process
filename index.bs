@@ -210,10 +210,14 @@ CCG classifies its [=work item=]s by the [=target deliverable=]. The first relev
 
 The [=ongoing community draft=] category is not common in the W3C, but has emerged as a useful concept in the CCG to cover ongoing [=work item=]s that are useful to the community, while not being intended to turn into a [=final report=]
 
-The [=task force=] category is not common in the W3C, but has emerged as a useful activity in the CCG to discuss topics of importance to the community.  Task forces must
-- have at least one leader
-- provide a status report each month (meeting minutes will typically suffice)
-- create a charter that addresses the scope, deliverables, relationship to external groups, participation requirements and communication. The charter should be readily accessible, and a copy must be sent to the CCG mailing list for archival purposes.
+The [=task force=] category is not common in the W3C, but has emerged as a useful activity in the CCG to discuss topics of importance to the community.  Task forces must have
+- at least one leader
+- completed requirements for a [=work item=]
+
+For a task force to remain active, it must
+- provide a status update report within a timely manner of the chairs' request (meeting minutes will typically suffice)
+
+If a response is not rendered within two weeks of the chairs' request, then the chairs may deem the task force to be inactive.
 
 ### Types
 
