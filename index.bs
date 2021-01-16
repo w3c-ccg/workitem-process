@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: W3C CCG Work Item Process
+Title: W3C CCG Work Item Process: Edits for Review
 Shortname: CCG-WI-PROCESS
 Level: 1
 Status: w3c/CG-DRAFT
@@ -117,6 +117,8 @@ Terminology {#terminology}
 
 <dfn>ongoing community draft</dfn> — A [=category=] of CCG [=work item=] with a [=ccg repository=] that will be maintained by the CCG in perpetuity. It is not intended to beome a [=final report=]. Examples include registries, conformance tests, schemas, reference code, etc.
 
+<dfn>task force</dfn> — A [=category=] of CCG [=work item=] that meets on a regular basis to address a specific topic within the scope of the CCG. It is not intended to beome a [=final report=] and may be concluded at any time by the participants. Examples include the VC-EDU task force, Secure Data Storage task force and DID Resolution task force. From time to time, task forces will provide updates to the main CCG community.
+
 <dfn>community specification</dfn>: A [=type=] of [=community report=], with intended transition to becoming a standard track working group [[W3C-CANDIDATE-REC]]
 
 <dfn>community note</dfn>: A type of [=community report=], with intended transition to becoming a [[W3C-WG-NOTE]]
@@ -174,24 +176,48 @@ Group members may propose a different process for their work item, which the cha
 NOTE: Long term these may be replaced by new W3C processes, but currently as Working Groups currently terminate, until a new process for these is created by the W3C we maintain them as community groups are perpetual.
 
 ### Additional CCG Requirements
-The CCG has additional requirements requires the following in order to adopt a [=work item=]:
+The CCG has additional requirements in order to adopt a [=work item=]:
 - at least one group member willing to commit to being the first editor
 - another group member (from a different company) willing to be a co-editor
 - a suggested timeline
+- address the [=work item=] questions below in their [=proposal=]
+- a link to the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a>
 - the expected [=work item=] [=type=]
 
 ### Work Item Scope
 In general, any work that advances the [[CCG-MISSION]] is welcome for consideration as a [=work item=]. 
 
+### Work Item Questions
+Each proposed [=work item=] must answer the following questions in their [=proposal=]. These questions are based on the Heilmeir Catechism. The intention is to improve clarity and understanding of the proposed [=work item=].
+- Explain what you are trying to do using no jargon or acronyms.
+- How is it done today, and what are the limits of the current practice?
+- What is new in your approach and why do you think it will be successful?
+- How are you involving participants from multiple skill sets and global locations in this work item? (Skill sets: technical, design, product, marketing, anthropological, and UX. Global locations: the Americas, APAC, Europe, Middle East.)
+- What actions are you taking to make this work item accessible to a non-technical audience?
+
+### Work Item Best Practices
+While not a requirement, the following best practices are recommended
+- peer leadership. Inspired from peer programming, peer leadership is teaming less experience work item owners with experienced work item owners for hands on experience. This enables knowledge transfer and empowers a larger number of future work item owners.
+
 ## Work Item / Target Deliverable Classification
 
 ### Categories
 
-CCG classifies its [=work item=]s by the [=target deliverable=]. The first relevant classification is a [=target deliverable=] [=category=]; the CCG distinguishes between two:
+CCG classifies its [=work item=]s by the [=target deliverable=]. The first relevant classification is a [=target deliverable=] [=category=]; the CCG distinguishes between three:
 - [=community report=]
 - [=ongoing community draft=]
+- [=task force=]
 
 The [=ongoing community draft=] category is not common in the W3C, but has emerged as a useful concept in the CCG to cover ongoing [=work item=]s that are useful to the community, while not being intended to turn into a [=final report=]
+
+The [=task force=] category is not common in the W3C, but has emerged as a useful activity in the CCG to discuss topics of importance to the community.  Task forces must have
+- at least one leader
+- completed requirements for a [=work item=]
+
+For a task force to remain active, it must
+- provide a status update report within a timely manner of the chairs' request (meeting minutes will typically suffice)
+
+If a response is not rendered within two weeks of the chairs' request, then the chairs may deem the task force to be inactive.
 
 ### Types
 
@@ -233,6 +259,7 @@ A CCG member initiates a [=proposal=] by creating a [[CCG-GITHUB-ISSUES]] with t
 
 1. Abstract or Draft of proposed [=work item=] (typically a link to a google doc or a markdown page in Github)
 2. Editors responsible for advancing the [=work item=]. Initially, a [=proposal=] may have a single editor; however, before approval of a [=work item=] it must have more than one editor, and editors must include representation from at least two companies.
+3. Work item questions
 
 Once the [=proposal=] github issue exists, the member should post the announcement to the CCG mailing list Credentials Community Group &lt;[public-credentials@w3.org](mailto:public-credentials@w3.org)>, linking to the Github issue.
 
