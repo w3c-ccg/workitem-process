@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: W3C CCG Work Item Process: Edits for Review
+Title: W3C CCG Work Item Process
 Shortname: CCG-WI-PROCESS
 Level: 1
 Status: w3c/CG-DRAFT
@@ -213,6 +213,7 @@ The [=ongoing community draft=] category is not common in the W3C, but has emerg
 The [=task force=] category is not common in the W3C, but has emerged as a useful activity in the CCG to discuss topics of importance to the community.  Task forces must have
 - at least one leader
 - completed requirements for a [=work item=]
+- a charter which defines the scope, deliverables, work principles, relationships to external groups, participation and communication. The charter should be readily accessible outside of GitHub and a copy should be sent to the mailing list for archival purposes.
 
 For a task force to remain active, it must
 - provide a status update report within a timely manner of the chairs' request (meeting minutes will typically suffice)
